@@ -1,6 +1,6 @@
 # Solwed-Tasks
 ```javascript
-let a = 12;
+let a = 24;
 
 ```
 
