@@ -56,4 +56,14 @@ function divCon(x){
    return sumN-sumS;
 }
 ```
-
+[Odd or Even?](https://www.codewars.com/kata/5949481f86420f59480000e7/solutions/javascript/me/best_practice)
+```javascript
+function oddOrEven(arr){
+  let sum = 0;
+   for (let i=0; i<arr.length; i++){
+    sum = sum+arr[i];
+  }
+  if (sum%2 === 0) return "even";
+  else return "odd";
+}
+```
