@@ -78,3 +78,13 @@ function cubeOdd(arr) {
   return sum;
 }
 ```
+[How good are you really?](https://www.codewars.com/kata/5601409514fc93442500010b/solutions/javascript)
+```javascript
+function betterThanAverage(classPoints, yourPoints) {
+  let sum = 0;
+  for (let i=0; i<classPoints.length; i++){
+  sum = sum + classPoints[i]
+  }
+  return sum/classPoints.length < yourPoints
+}
+```
