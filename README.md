@@ -67,3 +67,14 @@ function oddOrEven(arr){
   else return "odd";
 }
 ```
+[Sum of Odd Cubed Numbers](https://www.codewars.com/kata/580dda86c40fa6c45f00028a/solutions/javascript/me/best_practice)
+```javascript
+function cubeOdd(arr) {
+  let sum = 0;
+  for (let i=0; i<arr.length; i++){
+   if (typeof (arr[i]) != 'number') return undefined;
+   if (arr[i] % 2 != 0) sum = sum + arr[i]**3 
+  }
+  return sum;
+}
+```
