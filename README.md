@@ -15,7 +15,19 @@ return [arr0[0] + ':' + arr1[1], arr1[0] + ':' + arr0[1]]
 }
 ```
 
-
+[Count of positives / sum of negatives](https://www.codewars.com/kata/576bb71bbbcf0951d5000044/solutions/javascript)
+```javascript
+function countPositivesSumNegatives(arr) {
+  if (!arr || arr.length === 0 ) return [];
+  let countP = 0;
+  let sumN = 0;
+   for (let i=0; i<arr.length; i++){
+    if (arr[i]>0) countP = countP+1;
+     else sumN = sumN+arr[i];
+   } 
+  return [countP, sumN];
+}
+```
 
 
 
