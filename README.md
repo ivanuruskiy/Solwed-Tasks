@@ -88,3 +88,11 @@ function betterThanAverage(classPoints, yourPoints) {
   return sum/classPoints.length < yourPoints
 }
 ```
+[Tail Swap](https://www.codewars.com/kata/5868812b15f0057e05000001/solutions/javascript/me/best_practice)
+```javascript
+function tailSwap(arr) {
+let arr0 = arr[0].split(':');
+let arr1 = arr[1].split(':');
+return [arr0[0] + ':' + arr1[1], arr1[0] + ':' + arr0[1]]
+}
+```
