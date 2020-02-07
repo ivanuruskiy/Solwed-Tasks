@@ -116,4 +116,10 @@ return 'hello world!'
 function squareSum(numbers){
   return numbers.reduce((sum, el) => sum + el * el, 0);
 }
+// OR
+function squareSum(numbers){
+  return numbers.reduce(function(sum, n){
+    return (n*n) + sum;
+  }, 0)
+}
 ```
