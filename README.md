@@ -96,3 +96,11 @@ let arr1 = arr[1].split(':');
 return [arr0[0] + ':' + arr1[1], arr1[0] + ':' + arr0[1]]
 }
 ```
+[Training JS #1: create your first JS function and print "Helloworld!"](https://www.codewars.com/kata/571ec274b1c8d4a61c0000c8/solutions/javascript)
+```javascript
+function helloWorld(){
+var str = 'Hello World!';
+console.log(str);
+return str;
+}
+```
