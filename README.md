@@ -111,3 +111,9 @@ var greet = 'Hello World!';
 return 'hello world!'
 }
 ```
+[Square(n) Sum](https://www.codewars.com/kata/515e271a311df0350d00000f/solutions/javascript/me/best_practice)
+```javascript
+function squareSum(numbers){
+  return numbers.reduce((sum, el) => sum + el * el, 0);
+}
+```
