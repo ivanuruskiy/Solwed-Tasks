@@ -132,3 +132,10 @@ function even_or_odd(number) {
     return "Odd"
 }
 ```
+[Find the position!](https://www.codewars.com/kata/5808e2006b65bff35500008f/solutions/javascript/me/best_practice)
+```javascript
+function position(letter){
+  let alphabet = ' abcdefghijklmnopqrstuvwxyz';
+  return `Position of alphabet: ${alphabet.indexOf(letter)}`;
+}
+```
