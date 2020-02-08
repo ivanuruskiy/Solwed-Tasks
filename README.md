@@ -139,3 +139,7 @@ function position(letter){
   return `Position of alphabet: ${alphabet.indexOf(letter)}`;
 }
 ```
+[Add property to every object in array](https://www.codewars.com/kata/54e8c3e89e2ae6f4900005a1/solutions/javascript/me/best_practice)
+```javascript
+questions.map(el => el.usersAnswer = null);
+```
