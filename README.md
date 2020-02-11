@@ -174,3 +174,19 @@ function numObj(s){
  return res
 }
 ```
+[What's the real floor?](https://www.codewars.com/kata/574b3b1599d8f897470018f6/solutions/javascript/me/best_practice)
+```javascript
+function getRealFloor(n) {
+  // n <= 0, return 0
+  if (n <= 0){
+    return n
+  // 1 < n < 12, return n-1
+  } else if (n <= 12) {
+    return n - 1
+  // 13 <= n, return n-2
+  } else {
+    return n - 2
+  } 
+  
+}
+```
