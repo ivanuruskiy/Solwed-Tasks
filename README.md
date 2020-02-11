@@ -162,3 +162,15 @@ let answer = {};
 return answer
 }
 ```
+[Numbers to Objects](https://www.codewars.com/kata/57ced2c1c6fdc22123000316/solutions/javascript/me/best_practice)
+```javascript
+function numObj(s){
+ let res = [];
+ for(let i = 0; i < s.length; i++){
+ let obj = {};
+ obj[s[i]] = String.fromCharCode(s[i]);
+ res.push(obj);
+ }
+ return res
+}
+```
