@@ -148,3 +148,17 @@ for (i=0; i<questions.length; i++) {
 questions[i].usersAnswer = null;
 };
 ```
+[Coding Meetup #5 - Higher-Order Functions Series - Prepare the count of languages](https://www.codewars.com/kata/5828713ed04efde70e000346/solutions/javascript/me/best_practice)
+```javascript
+function countLanguages(list) {
+let answer = {};
+  for(let i = 0; i < list.length; i++){
+    if(answer[list[i].language]){
+        answer[list[i].language]++;
+    } else { 
+    answer[list[i].language] = 1;
+    }
+  } 
+return answer
+}
+```
