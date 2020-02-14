@@ -201,4 +201,12 @@ function bmi(weight, height) {
   if (index  <= 30.0) return "Overweight";
   else return "Obese";
 }
+// OR
+function bmi(w, h) {
+  let b = w/Math.pow(h, 2)
+  return  b > 30 ? "Obese" :
+          b > 25 ? "Overweight" :
+          b > 18.5 ? "Normal" : "Underweight";
+         
+}
 ```
