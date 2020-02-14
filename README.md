@@ -225,4 +225,35 @@ const calculateTip = (amount, rating) => {
   
   return rating in TIPS ? Math.ceil(TIPS[rating] * amount) : "Rating not recognised";
 };
+// OR
+function calculateTip(amount, rating) {
+  let tip;
+  rating = rating.toLowerCase(); 
+  switch(rating) {
+     case 'terrible':
+      tip = amount * 0;
+      break;
+      
+    case 'poor':
+      tip = amount * 0.05;
+      break;
+      
+    case 'good':
+      tip = amount * 0.1;
+      break;
+      
+    case 'great':
+      tip = amount * 0.15;
+      break;
+      
+    case 'excellent':
+      tip = amount * 0.2;
+      break;
+    
+    default:
+      return 'Rating not recognised';
+      break;
+  }
+  return Math.ceil(tip);
+}
 ```
