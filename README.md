@@ -257,3 +257,15 @@ function calculateTip(amount, rating) {
   return Math.ceil(tip);
 }
 ```
+[The Office I - Outed](https://www.codewars.com/kata/57ecf6efc7fe13eb070000e1/solutions/javascript/me/best_practice)
+```javascript
+function outed(meet, boss){
+let sum = meet[boss];
+let a = 'Get Out Now!';
+let b = 'Nice Work Champ!';
+  for(let key in meet){
+ sum += meet[key];
+}
+return (sum/Object.entries(meet).length <= 5) ? a : b
+}
+```
