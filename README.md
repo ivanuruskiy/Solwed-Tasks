@@ -291,5 +291,10 @@ String.prototype.digit = function() {
   else if (this.length === arr.length && arr.length === 1) return true;
   else return false;
 };
+// OR
+String.prototype.digit = function() {
+  return /^\d$/.test(this);
+};
 ```
+
 
