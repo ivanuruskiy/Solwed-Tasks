@@ -274,4 +274,13 @@ function outed(meet, boss) {
   let score = names.reduce((s,v) => s + meet[v], 0) + meet[boss]
   return score / names.length > 5 ? 'Nice Work Champ!' : 'Get Out Now!'
 }
+// OR
+function outed(meet, boss){
+  let total = Object.values(meet).reduce((t, v) => {
+    return v + t}, meet[boss]);
+  let overall = total / Object.keys(meet).length;
+  return overall <= 5 ? "Get Out Now!" : "Nice Work Champ!"
+}
+
 ```
+
