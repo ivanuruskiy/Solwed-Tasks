@@ -281,6 +281,15 @@ function outed(meet, boss){
   let overall = total / Object.keys(meet).length;
   return overall <= 5 ? "Get Out Now!" : "Nice Work Champ!"
 }
-
+```
+[Regexp Basics - is it a digit?](https://www.codewars.com/kata/567bf4f7ee34510f69000032/solutions/javascript/me/best_practice)
+```javascript
+String.prototype.digit = function() {
+  let arr = this.match(/[0-9]/g);
+  
+  if (!arr) return false;
+  else if (this.length === arr.length && arr.length === 1) return true;
+  else return false;
+};
 ```
 
