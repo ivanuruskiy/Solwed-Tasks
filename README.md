@@ -296,5 +296,12 @@ String.prototype.digit = function() {
   return /^\d$/.test(this);
 };
 ```
-
+[Keep up the hoop](https://www.codewars.com/kata/55cb632c1a5d7b3ad0000145/solutions/javascript/me/best_practice)
+```javascript
+function hoopCount(n) {
+  return n >= 10 ?
+    "Great, now move on to tricks" :
+    "Keep at it until you get it";
+}
+```
 
