@@ -315,5 +315,7 @@ function hoopCount (n) {
 function add(a, b){
   return a == b 
 }
+// OR
+const add = (a, b) => a == b
 ```
 
