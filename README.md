@@ -374,4 +374,12 @@ function removeSmallest(numbers) {
 function invert(array) {
    return array.map(el => -el);
 }
+// 2ND SOLUTION
+function invert(array) {
+  var newArr = [];
+  for(var i = 0; i < array.length; i++){
+    newArr.push(-array[i]);
+  }
+   return newArr;
+}
 ```
