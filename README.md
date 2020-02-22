@@ -369,4 +369,9 @@ function removeSmallest(numbers) {
   return numbers;
 }
 ```
-
+[Invert values](https://www.codewars.com/kata/5899dc03bc95b1bf1b0000ad/solutions/javascript/me/best_practice)
+```javascript
+function invert(array) {
+   return array.map(el => -el);
+}
+```
