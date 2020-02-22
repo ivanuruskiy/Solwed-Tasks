@@ -339,5 +339,9 @@ if (Math.sqrt(array[i]) % 1 === 0 ){
 }
 return arr
 }
+// OR
+function squareOrSquareRoot(array) {
+  return array.map(function(num, i) { return Number.isInteger(Math.sqrt(num)) ? Math.sqrt(num) : num*num;});
+}
 ```
 
