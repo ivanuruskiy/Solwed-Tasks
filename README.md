@@ -312,10 +312,17 @@ function hoopCount (n) {
 ```
 [Simple Comparison?](https://www.codewars.com/kata/57f6ecdfcca6e045d2001207/solutions/javascript/me/best_practice)
 ```javascript
+
 function add(a, b){
   return a == b 
 }
 // OR
 const add = (a, b) => a == b
+// 3rd SOLUT.
+
+function add(a, b){
+  return (`${a}`)==(`${b}`);
+}
+
 ```
 
