@@ -344,4 +344,22 @@ function squareOrSquareRoot(array) {
   return array.map(function(num, i) { return Number.isInteger(Math.sqrt(num)) ? Math.sqrt(num) : num*num;});
 }
 ```
+[Remove the minimum](https://www.codewars.com/kata/563cf89eb4747c5fb100001b/solutions/javascript/me/best_practice)
+```javascript
+function removeSmallest(numbers) {
+if(numbers.length === 0) return [];
+  let arr = [];
+  let min = numbers[0];
+  for(let i = 1; i< numbers.length; i++){
+     if(numbers[i] < min) min = numbers[i];
+   }
+ let index = numbers.indexOf(min);
+ 
+  for(let i = 0; i< numbers.length; i++){
+     if( i !== index) arr.push(numbers[i]);
+  }
+  return arr;
+}
+
+```
 
