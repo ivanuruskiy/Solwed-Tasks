@@ -318,11 +318,26 @@ function add(a, b){
 }
 // OR
 const add = (a, b) => a == b
+
 // 3rd SOLUT.
 
 function add(a, b){
   return (`${a}`)==(`${b}`);
 }
 
+```
+[To square(root) or not to square(root)](https://www.codewars.com/kata/57f6ad55cca6e045d2000627/solutions/javascript/me/best_practice)
+```javascript
+function squareOrSquareRoot(array) {
+let arr = [];
+
+for (let i = 0; i < array.length; i++){
+if (Math.sqrt(array[i]) % 1 === 0 ){
+  arr.push(Math.sqrt(array[i]))
+}else
+ arr.push(Math.pow(array[i],2))
+}
+return arr
+}
 ```
 
