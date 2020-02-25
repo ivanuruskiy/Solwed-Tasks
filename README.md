@@ -398,3 +398,9 @@ function tripleTrouble(one, two, three){
   return one.replace(/./g,(v,i)=>v+two[i]+three[i])
  }
 ```
+[Is he gonna survive?](https://www.codewars.com/kata/59ca8246d751df55cc00014c/solutions/javascript/me/best_practice)
+```javascript
+unction hero(bullets, dragons){
+  return bullets >= dragons * 2
+}
+```
