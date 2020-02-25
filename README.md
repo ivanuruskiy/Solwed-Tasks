@@ -383,3 +383,13 @@ function invert(array) {
    return newArr;
 }
 ```
+[Triple Trouble](https://www.codewars.com/kata/5704aea738428f4d30000914/solutions/javascript/me/best_practice)
+```javascript
+function tripleTrouble(one, two, three){
+  let myStr = '';
+  for(let i = 0; i < one.length; i++){
+  myStr = myStr + one[i] + two[i] + three[i];
+ }
+ return myStr;
+ }
+```
