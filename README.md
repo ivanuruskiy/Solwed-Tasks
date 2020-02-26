@@ -407,3 +407,22 @@ unction hero(bullets, dragons){
 
 const hero = (bullets, dragons) => dragons * 2 <= bullets;
 ```
+[Most valuable character](https://www.codewars.com/kata/5dd5128f16eced000e4c42ba/solutions/javascript/me/best_practice)
+```javascript
+function solve(st) {
+ let max = 0;
+ let obj = {}; 
+ for(let i = 0; i < st.length; i++){
+   obj[st[i]] = st.lastIndexOf(st[i]) - st.indexOf(st[i])
+   if(obj[st[i]] > max) 
+    max = obj[st[i]];
+ }
+ let min = 'Й';
+ for(let key in obj){
+   if( obj[key] === max && key < min) {
+   min = key;
+   }
+ }
+ return min
+}
+```
