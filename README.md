@@ -439,4 +439,17 @@ function solve(str) {
   return mvc;
 }
 ```
+[Take a Ten Minute Walk](https://www.codewars.com/kata/54da539698b8a2ad76000228/solutions/javascript)
+```javascript
+function isValidWalk(walk) {
+   let s = 0, n = 0, w = 0, e = 0;
+   for (let i = 0; i < walk.length; i++) {
+     if (walk[i] === 's') s++;
+     if (walk[i] === 'w') w++;
+     if (walk[i] === 'n') n++;
+     if (walk[i] === 'e') e++;
+   }
+   return s === n && w === e && walk.length === 10;;   
+}
 
+```
