@@ -425,4 +425,18 @@ function solve(st) {
  }
  return min
 }
+// 2ND SOLUTION
+function solve(str) {
+  let count = 0;
+  let mvc = str[0];
+     for(let s of str) {
+      const diff = str.lastIndexOf(s) - str.indexOf(s)
+       if(diff > count || diff === count && s.localeCompare(mvc) === -1) {
+        count = diff;
+        mvc = s;
+       }
+     }  
+  return mvc;
+}
 ```
+
