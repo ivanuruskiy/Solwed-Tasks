@@ -459,3 +459,14 @@ function isValidWalk(walk) {
   return walk.length==10 && count('n')==count('s') && count('w')==count('e');
 }
 ```
+[Filling an array (part 1)](https://www.codewars.com/kata/571d42206414b103dc0006a1/solutions/javascript/me/best_practice)
+```javascript
+//const arr = N => [ /* the numbers 0 to N-1 */ ];
+function arr(n) {
+let a = [];
+for(let i = 0; i <= n - 1; i++) {
+  a.push(i);
+}
+return a;
+}
+```
