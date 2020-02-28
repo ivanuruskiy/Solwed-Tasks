@@ -469,4 +469,7 @@ for(let i = 0; i <= n - 1; i++) {
 }
 return a;
 }
+// OR 2nd Solution
+
+const arr = require('lodash').range;
 ```
