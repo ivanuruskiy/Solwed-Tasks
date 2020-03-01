@@ -492,3 +492,13 @@ function firstNonConsecutive (arr) {
   return null;
 }
 ```
+[Difference of Volumes of Cuboids](https://www.codewars.com/kata/58cb43f4256836ed95000f97/solutions/javascript/me/best_practice)
+```javascript
+function findDifference(a, b) {
+  let v1 = a[0] * a[1] * a[2];
+  let v2 = b[0] * b[1] * b[2];
+  
+  return Math.abs(v1 - v2);
+}
+
+```
