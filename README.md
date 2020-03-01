@@ -500,5 +500,10 @@ function findDifference(a, b) {
   
   return Math.abs(v1 - v2);
 }
+// OR 2ND SOLUTION
 
+function findDifference(a, b) {
+  return Math.abs(a.reduce((a,b)=>a*b) - b.reduce((a,b)=> a*b))
+}
 ```
+
