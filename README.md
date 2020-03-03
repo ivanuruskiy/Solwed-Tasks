@@ -506,4 +506,7 @@ function findDifference(a, b) {
   return Math.abs(a.reduce((a,b)=>a*b) - b.reduce((a,b)=> a*b))
 }
 ```
+[Find the divisors!](https://www.codewars.com/kata/544aed4c4a30184e960010f4/solutions/javascript/me/best_practice)
+```javascript
 
+```
