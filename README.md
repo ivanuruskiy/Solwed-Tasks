@@ -516,5 +516,6 @@ function divisors(int) {
    if (a.length === 0) return `${int} is prime`;
    else return a;
 };
+// OR 2ND SOLUTION
 
 ```
