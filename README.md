@@ -508,5 +508,13 @@ function findDifference(a, b) {
 ```
 [Find the divisors!](https://www.codewars.com/kata/544aed4c4a30184e960010f4/solutions/javascript/me/best_practice)
 ```javascript
+function divisors(int) {
+  let a = [];
+  for (let i = 2; i<int; i++){
+   if (int % i === 0) a.push(i);
+   }
+   if (a.length === 0) return `${int} is prime`;
+   else return a;
+};
 
 ```
