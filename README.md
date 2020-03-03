@@ -518,4 +518,24 @@ function divisors(int) {
 };
 // OR 2ND SOLUTION
 
+function divisors(x) {
+  var result = [];
+  for (var a = 2; a*a <= x; ++a) {
+    if (x%a == 0) {
+      var b = x/a;
+      result.push(a);
+      if (b != a) {
+        result.push(b);
+      }
+    }
+  }
+  if (result.length == 0) {
+    return x+' is prime';
+  }
+  result.sort(function (a, b) {
+    return a - b;
+  });
+  return result;
+};
 ```
+
