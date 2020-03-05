@@ -539,5 +539,11 @@ function divisors(x) {
 };
 
 // Interesting 3RD SOLUTION
+
+function divisors(integer) {
+  for(var div = [], i = 2; i < integer; i++) if(integer % i == 0) div.push(i);
+  return div.length > 0 ? div : integer + " is prime";
+}
 ```
+
 
