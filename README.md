@@ -537,5 +537,7 @@ function divisors(x) {
   });
   return result;
 };
+
+// Interesting 3RD SOLUTION
 ```
 
