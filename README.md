@@ -547,7 +547,10 @@ function divisors(integer) {
 ```
 [Grasshopper - Basic Function Fixer](https://www.codewars.com/kata/56200d610758762fb0000002/solutions/javascript/me/best_practice)
 ```javascript
-
+function addFive(num) {
+  num += 5;
+  return num;
+}
 ```
 
 
