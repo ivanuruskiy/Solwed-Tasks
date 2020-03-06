@@ -553,7 +553,9 @@ function addFive(num) {
 }
 // OR 2ND SOLUTION
 
+const addFive = (num) => num + 5
 
 ```
+
 
 
