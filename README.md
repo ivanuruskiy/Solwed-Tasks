@@ -563,6 +563,10 @@ function mango(quantity, price){
 }
 // 2ND SOLUTION
 
+function mango(quantity, price){
+  return (quantity - Math.floor(quantity/3))*price;
+}
 ```
+
 
 
