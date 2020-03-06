@@ -561,6 +561,7 @@ const addFive = (num) => num + 5
 function mango(quantity, price){
   return (quantity - Math.floor(quantity/3))*price;
 }
+// 2ND SOLUTION
 
 ```
 
