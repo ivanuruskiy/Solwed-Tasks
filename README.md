@@ -545,6 +545,9 @@ function divisors(integer) {
   return div.length > 0 ? div : integer + " is prime";
 }
 ```
-[Grasshopper - Basic Function Fixer]
+[Grasshopper - Basic Function Fixer](https://www.codewars.com/kata/56200d610758762fb0000002/solutions/javascript/me/best_practice)
+```javascript
+
+```
 
 
