@@ -567,7 +567,19 @@ function mango(quantity, price){
   return (quantity - Math.floor(quantity/3))*price;
 }
 ```
-[Pre-FizzBuzz Workout #1]()
+[Pre-FizzBuzz Workout #1](https://www.codewars.com/kata/569e09850a8e371ab200000b/solutions/javascript/me/best_practice)
+```javascript
+function preFizz(n) {
+    let arr = [];
+
+    for(let i = 1; i <= n; i++){
+        arr.push(i);
+    }
+
+    return arr;
+}
+```
+
 
 
 
