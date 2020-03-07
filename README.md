@@ -579,7 +579,10 @@ function preFizz(n) {
     return arr;
 }
 // OR 2ND SOLUTION
+
+const preFizz = n => Array.from({length: n}, (_, i) => i + 1)
 ```
+
 
 
 
