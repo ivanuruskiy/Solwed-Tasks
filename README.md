@@ -578,6 +578,7 @@ function preFizz(n) {
 
     return arr;
 }
+// OR 2ND SOLUTION
 ```
 
 
