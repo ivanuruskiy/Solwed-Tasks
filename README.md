@@ -595,7 +595,7 @@ function pickIt(arr) {
     }
     return [odd, even];
 }
-
+// OR 2ND SOLUTION
 ```
 
 
