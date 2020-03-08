@@ -582,7 +582,7 @@ function preFizz(n) {
 
 const preFizz = n => Array.from({length: n}, (_, i) => i + 1)
 ```
-[]
+[Training JS #10: loop statement --for]
 
 
 
