@@ -613,6 +613,7 @@ const isReallyNaN = (val) => {
   
   return Number.isNaN(val);
 };
+// OR 2ND SOLUTION
 
 ```
 
