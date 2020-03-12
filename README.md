@@ -607,7 +607,7 @@ function pickIt(arr){
   return [odd,even];
 }
 ```
-[]
+[isReallyNaN]
 
 
 
