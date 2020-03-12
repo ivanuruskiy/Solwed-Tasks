@@ -615,7 +615,10 @@ const isReallyNaN = (val) => {
 };
 // OR 2ND SOLUTION
 
+const isReallyNaN = Number.isNaN
+
 ```
+
 
 
 
