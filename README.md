@@ -608,7 +608,9 @@ function pickIt(arr){
 }
 ```
 [isReallyNaN](https://www.codewars.com/kata/56c24c58e0c0f741d4001aef/solutions/javascript/me/best_practice)
+```javascript
 
+```
 
 
 
