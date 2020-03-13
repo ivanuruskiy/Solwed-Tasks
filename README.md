@@ -618,7 +618,7 @@ const isReallyNaN = (val) => {
 const isReallyNaN = Number.isNaN
 
 ```
-[]
+[Is it a palindrome?]
 
 
 
