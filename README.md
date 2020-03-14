@@ -619,7 +619,9 @@ const isReallyNaN = Number.isNaN
 
 ```
 [Is it a palindrome?](https://www.codewars.com/kata/57a1fd2ce298a731b20006a4/solutions/javascript/me/best_practice)
+```javascript
 
+```
 
 
 
