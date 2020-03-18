@@ -628,6 +628,7 @@ function isPalindrome(x) {
   }
   return x == reverse;
 }
+// OR 
 ```
 
 
