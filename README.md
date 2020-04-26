@@ -628,9 +628,14 @@ function isPalindrome(x) {
   }
   return x == reverse;
 }
+// OR 2ND SOLUTION
 
+function isPalindrome(x) {
+  return x.toLowerCase()==x.split('').reverse().join('').toLowerCase()
+}
 ```
-[()]
+
+
 
 
 
