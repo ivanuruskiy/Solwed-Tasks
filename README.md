@@ -658,4 +658,3 @@ function isPalindrome(x) {
 
 
 
-
