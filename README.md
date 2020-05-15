@@ -636,7 +636,7 @@ function isPalindrome(x) {
 ```
 []()
 ```js
-palindrome
+palindrome // or
 ```
 
 
