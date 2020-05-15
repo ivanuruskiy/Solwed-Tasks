@@ -636,7 +636,7 @@ function isPalindrome(x) {
 ```
 []()
 ```js
-
+palin
 ```
 
 
