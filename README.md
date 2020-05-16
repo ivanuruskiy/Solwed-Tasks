@@ -666,7 +666,9 @@ function rowWeights(arr){
   }
 return [sumOddIndex, sumEvenIndex]
 };
-//  OR 2ND
+//  OR 2ND SOLUTION
+
+
 ```
 
 
