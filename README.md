@@ -652,7 +652,8 @@ function removeEveryOther(arr){
 };
 ```
 
-[Row Weights]
+[Row Weights](https://www.codewars.com/kata/5abd66a5ccfd1130b30000a9/solutions/javascript/me/best_practice)
+
 
 
 
