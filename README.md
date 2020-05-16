@@ -643,7 +643,9 @@ function removeEveryOther(arr){
   }
   return arr2;
 }
-//  OR
+//  OR  2ND SOLUTION
+
+
 ```
 
 
