@@ -668,6 +668,15 @@ return [sumOddIndex, sumEvenIndex]
 };
 //  OR 2ND SOLUTION
 
+function rowWeights(arr){
+  let sumTeam1 = 0;
+  let sumTeam2 = 0;
+  for (i = 0; i < arr.length; i++){
+    if (i % 2 === 0) sumTeam1 = sumTeam1 + arr[i];
+      else sumTeam2 = sumTeam2 + arr[i];
+  }
+  return [sumTeam1, sumTeam2];
+}
 
 ```
 
