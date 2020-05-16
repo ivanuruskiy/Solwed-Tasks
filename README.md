@@ -650,8 +650,9 @@ function removeEveryOther(arr){
     return index % 2 === 0;
   });
 };
-
 ```
+
+[]
 
 
 
