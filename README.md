@@ -653,7 +653,20 @@ function removeEveryOther(arr){
 ```
 
 [Row Weights](https://www.codewars.com/kata/5abd66a5ccfd1130b30000a9/solutions/javascript/me/best_practice)
-
+```js
+function rowWeights(arr){
+  let sumOddIndex = 0;
+  let sumEvenIndex = 0;
+   for (let i = 0; i < arr.length; ++i) {
+    if (i % 2 !== 0) {
+  sumEvenIndex += arr[i]
+   } else {
+  sumOddIndex += arr[i]
+   }
+  }
+return [sumOddIndex, sumEvenIndex]
+};
+```
 
 
 
