@@ -634,7 +634,7 @@ function isPalindrome(x) {
   return x.toLowerCase()==x.split('').reverse().join('').toLowerCase()
 }
 ```
-
+[Removing Elements]
 
 
 
