@@ -698,7 +698,7 @@ function isValidWalk(walk) {
   return dt === 10 && dx === 0 && dy === 0
 };
 
-//  OR 2ND SOLUTION
+//  OR 2ND SOL...
 
 function isValidWalk(walk) {
   let total = 0;
@@ -708,6 +708,8 @@ function isValidWalk(walk) {
   return !total;
 }
 ```
+
+
 
 
 
