@@ -699,6 +699,14 @@ function isValidWalk(walk) {
 };
 
 //  OR 2ND SOLUTION
+
+function isValidWalk(walk) {
+  let total = 0;
+  if(walk.length!==10) return false;
+  for(el of walk)
+    el==='n' || el==='w' ? total++ : total--;
+  return !total;
+}
 ```
 
 
