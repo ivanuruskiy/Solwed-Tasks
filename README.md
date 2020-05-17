@@ -680,7 +680,9 @@ function rowWeights(arr){
 
 ```
 [Take a Ten Minute Walk](https://www.codewars.com/kata/54da539698b8a2ad76000228/solutions/javascript)
+```js
 
+```
 
 
 
