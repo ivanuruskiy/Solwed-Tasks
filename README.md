@@ -709,7 +709,7 @@ function isValidWalk(walk) {
 }
 ```
 
-[]
+[
 
 
 
