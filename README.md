@@ -720,7 +720,7 @@ function gimme(arr) {
     }
   }
 }
-// OR
+// OR  2ND SOLUTION
 ```
 
 
