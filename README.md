@@ -720,7 +720,7 @@ function gimme(arr) {
     }
   }
 }
-// OR  2ND SOLUTION.
+// OR  2ND SOL.
 
 var gimme = function (inputArray) {
  var order = inputArray.slice().sort(function(a,b) { return a-b;});
