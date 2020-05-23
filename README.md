@@ -744,6 +744,8 @@ multiplicationTable = function(size) {
   }
   return arr;
 }
+
+//
 ```
 
 
