@@ -732,7 +732,18 @@ var gimme = function (inputArray) {
 ```
 [Multiplication table](https://www.codewars.com/kata/534d2f5b5371ecf8d2000a08/solutions/javascript/me/best_practice)
 ```js
-
+multiplicationTable = function(size) {
+  const arr = [];
+  
+  for (let i = 1; i <= size;i++) {
+    const newArr = [];
+    arr.push(newArr);
+    for (let j = 1; j <= size; j++) {
+      newArr.push(i * j)
+    }
+  }
+  return arr;
+}
 ```
 
 
