@@ -745,7 +745,7 @@ multiplicationTable = function(size) {
   return arr;
 }
 
-//
+//  OR 2ND SOLUTION.
 ```
 
 
