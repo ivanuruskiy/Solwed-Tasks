@@ -746,6 +746,16 @@ multiplicationTable = function(size) {
 }
 
 //  OR 2ND SOLUTION.
+
+multiplicationTable = function(size) {
+  var table = [];
+  for (i = 1; i <= size; i++){
+    var row = [];
+    for (j = 1; j <= size; j++) row.push(i * j);
+      table.push(row);
+    }
+  return table;
+}
 ```
 
 
