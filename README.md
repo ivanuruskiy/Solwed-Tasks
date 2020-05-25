@@ -759,7 +759,17 @@ multiplicationTable = function(size) {
 ```
 [Filter out the geese](https://www.codewars.com/kata/57ee4a67108d3fd9eb0000e7/solutions/javascript/me/best_practice)
 ```js
-
+function gooseFilter (birds) {
+  var geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
+  const noGeese = [];
+   for (let i = 0; i < birds.length; i++){
+     if(!geese.includes(birds[i]))
+     noGeese.push(birds[i]);
+     }
+     return noGeese;
+     
+  
+} 
 ```
 
 
