@@ -757,7 +757,7 @@ multiplicationTable = function(size) {
   return table;
 }
 ```
-[Filter out the geese]
+[Filter out the geese]()
 
 
 
