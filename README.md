@@ -770,6 +770,15 @@ function gooseFilter (birds) {
 } 
 
 // OR 2ND SOLUTION.
+
+const geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"]
+
+const notGoose = bird =>
+  !geese.includes(bird)
+
+const gooseFilter = birds =>
+  birds.filter(notGoose)
+
 ```
 
 
