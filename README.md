@@ -782,7 +782,19 @@ const gooseFilter = birds =>
 ```
 [Sorted? yes? no? how?](https://www.codewars.com/kata/580a4734d6df748060000045/solutions/javascript/me/best_practice)
 ```js
-
+function isSortedAndHow(arr) {
+let res = 0;
+let n = 0;
+for(let i = 0; i<arr.length; i++) {
+if(arr[i] < arr[i+1]) 
+res++;
+else if (arr[i] > arr[i+1])
+n++;
+}
+if(res > 0 && n === 0) return "yes, ascending";
+else if(res === 0 && n > 0) return "yes, descending";
+else return "no";
+};
 ```
 
 
