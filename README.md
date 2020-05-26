@@ -767,9 +767,9 @@ function gooseFilter (birds) {
      noGeese.push(birds[i]);
      }
      return noGeese;
-     
-  
 } 
+
+// OR
 ```
 
 
