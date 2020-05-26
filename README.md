@@ -780,7 +780,8 @@ const gooseFilter = birds =>
   birds.filter(notGoose)
 
 ```
-[Sorted? yes? no? how?]()
+[Sorted? yes? no? how?](https://www.codewars.com/kata/580a4734d6df748060000045/solutions/javascript/me/best_practice)
+
 
 
 
