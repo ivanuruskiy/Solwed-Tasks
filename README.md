@@ -769,7 +769,7 @@ function gooseFilter (birds) {
      return noGeese;
 } 
 
-// OR
+// OR 2ND SOLUTION.
 ```
 
 
