@@ -796,7 +796,7 @@ else if(res === 0 && n > 0) return "yes, descending";
 else return "no";
 };
 
-//  OR 2ND SOL
+//  OR 2ND SOLUTION.
 ```
 []
 
