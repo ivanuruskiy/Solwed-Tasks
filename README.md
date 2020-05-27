@@ -795,7 +795,9 @@ if(res > 0 && n === 0) return "yes, ascending";
 else if(res === 0 && n > 0) return "yes, descending";
 else return "no";
 };
+
 ```
+[]
 
 
 
