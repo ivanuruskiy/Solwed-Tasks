@@ -804,6 +804,9 @@ function isSortedAndHow(arr) {
 }
 ```
 []()
+```js
+
+```
 
 
 
