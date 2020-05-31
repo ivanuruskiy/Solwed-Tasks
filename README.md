@@ -804,7 +804,9 @@ function isSortedAndHow(arr) {
 }
 ```
 [Moving Zeros To The End](https://www.codewars.com/kata/52597aa56021e91c93000cb0/solutions/javascript/me/best_practice)
+```js
 
+```
 
 
 
