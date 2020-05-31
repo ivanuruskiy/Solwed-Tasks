@@ -803,7 +803,8 @@ function isSortedAndHow(arr) {
          arr.every((x,i)=>i==0||arr[i]<=arr[i-1])?'yes, descending':'no'
 }
 ```
-[Moving Zeros To The End]()
+[Moving Zeros To The End](https://www.codewars.com/kata/52597aa56021e91c93000cb0/solutions/javascript/me/best_practice)
+
 
 
 
