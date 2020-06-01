@@ -805,6 +805,19 @@ function isSortedAndHow(arr) {
 ```
 [Moving Zeros To The End](https://www.codewars.com/kata/52597aa56021e91c93000cb0/solutions/javascript/me/best_practice)
 ```js
+var moveZeros = function (arr) {
+  const arr1 = [];
+  let count = 0;
+  for(let i = 0; i < arr.length; ++i){
+    if(arr[i] !== 0) arr1.push(arr[i]);
+    else count++;
+  }
+  for(let i = 0; i < count; ++i){
+  
+  arr1.push(0)
+  }
+ return arr1;
+};
 
 ```
 
