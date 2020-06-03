@@ -818,7 +818,7 @@ var moveZeros = function (arr) {
   }
  return arr1;
 };
-//  OR 2nd 
+//  OR 2nd SOL.
 ```
 
 
