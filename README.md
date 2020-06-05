@@ -831,7 +831,7 @@ var moveZeros = function (arr) {
 }
 ```
 
-[Get Planet Name By ID]
+[Get Planet Name By ID]()
 
 
 
