@@ -848,7 +848,7 @@ function getPlanetName(id){
   return obj[id];
 };
 
-//  OR 
+//  OR 2ND SOLUTION.
 ```
 
 
