@@ -897,7 +897,7 @@ function greet(l) {
     swedish: 'Valkommen',
     welsh: 'Croeso'
   }[l];
-}
+};
 ```
 
 
