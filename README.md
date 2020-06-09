@@ -899,7 +899,7 @@ function greet(l) {
   }[l];
 };
 
-//  OR
+//  OR 2ND
 ```
 
 
