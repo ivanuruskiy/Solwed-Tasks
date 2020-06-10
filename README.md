@@ -899,7 +899,7 @@ function greet(l) {
   }[l];
 };
 
-//  OR 2ND SOL
+//  OR 2ND SOLUTION
 ```
 
 
