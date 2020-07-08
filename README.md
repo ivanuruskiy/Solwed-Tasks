@@ -926,7 +926,7 @@ return database[language] || "Welcome";
 }
 
 ```
-[]
+
 
 
 
