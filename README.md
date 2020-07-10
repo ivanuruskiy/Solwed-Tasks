@@ -927,6 +927,10 @@ return database[language] || "Welcome";
 
 ```
 []
+()
+```js
+
+```
 
 
 
