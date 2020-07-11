@@ -926,7 +926,8 @@ return database[language] || "Welcome";
 }
 
 ```
-[Rock Paper Scissors!]()
+[Rock Paper Scissors!](https://www.codewars.com/kata/5672a98bdbdd995fad00000f/solutions/javascript/me/best_practice)
+
 ```js
 
 ```
