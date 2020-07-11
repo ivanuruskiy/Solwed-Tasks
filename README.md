@@ -926,8 +926,7 @@ return database[language] || "Welcome";
 }
 
 ```
-[]
-()
+[Rock Paper Scissors!]()
 ```js
 
 ```
