@@ -927,9 +927,21 @@ return database[language] || "Welcome";
 
 ```
 [Rock Paper Scissors!](https://www.codewars.com/kata/5672a98bdbdd995fad00000f/solutions/javascript/me/best_practice)
-
 ```js
-
+const rps = (p1, p2) => {
+let message1 = 'scissors';
+let message2 = 'rock';
+let message3 = 'paper';
+if (p1 === message1 && p2 === message1) return 'Draw!';
+if (p1 === message2 && p2 === message2) return 'Draw!';
+if (p1 === message3 && p2 === message3) return 'Draw!';
+if (p1 === message1 && p2 === message2) return 'Player 2 won!';
+if (p1 === message1 && p2 === message3) return 'Player 1 won!';
+if (p1 === message2 && p2 === message1) return 'Player 1 won!';
+if (p1 === message2 && p2 === message3) return 'Player 2 won!';
+if (p1 === message3 && p2 === message1) return 'Player 2 won!';
+if (p1 === message3 && p2 === message2) return 'Player 1 won!';
+}
 ```
 
 
