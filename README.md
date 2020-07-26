@@ -943,7 +943,7 @@ if (p1 === message3 && p2 === message1) return 'Player 2 won!';
 if (p1 === message3 && p2 === message2) return 'Player 1 won!';
 }
 
-// OR 2ND SOLUTION.
+// OR 2ND SOL.
 
 const rps = (p1, p2) => {
   if (p1 == p2)
