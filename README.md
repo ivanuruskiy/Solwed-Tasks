@@ -959,7 +959,8 @@ const rps = (p1, p2) => {
      return 'Player 2 won!';
 };
 ```
-[Rock Paper Scissors Lizard Spock]()
+[Rock Paper Scissors Lizard Spock](https://www.codewars.com/kata/57d29ccda56edb4187000052/solutions/javascript/me/best_practice)
+
 
 
 
