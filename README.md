@@ -960,7 +960,9 @@ const rps = (p1, p2) => {
 };
 ```
 [Rock Paper Scissors Lizard Spock](https://www.codewars.com/kata/57d29ccda56edb4187000052/solutions/javascript/me/best_practice)
+```js
 
+```
 
 
 
