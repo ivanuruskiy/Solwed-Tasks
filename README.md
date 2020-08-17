@@ -981,7 +981,7 @@ return str;
 
 }
 
-// OR 2ND SOLUTION.
+// OR 2ND SOL.
 
 
 ```
