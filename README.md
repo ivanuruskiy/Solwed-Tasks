@@ -981,7 +981,7 @@ return str;
 
 }
 
-// OR 2ND SOL.
+// OR 2ND SOLUT.
 
 function rpsls(pl1, pl2){
   const moves = ['scissors', 'paper', 'rock', 'lizard', 'spock'];
@@ -989,7 +989,6 @@ function rpsls(pl1, pl2){
   
   return winner ? `Player ${winner % 2 ? 1 : 2} Won!` : 'Draw!';
 }
-
 ```
 
 
