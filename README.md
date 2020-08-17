@@ -981,7 +981,7 @@ return str;
 
 }
 
-// OR 2ND SOLUT.
+// OR 2ND SOLUTI.
 
 function rpsls(pl1, pl2){
   const moves = ['scissors', 'paper', 'rock', 'lizard', 'spock'];
