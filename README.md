@@ -983,6 +983,12 @@ return str;
 
 // OR 2ND SOL.
 
+function rpsls(pl1, pl2){
+  const moves = ['scissors', 'paper', 'rock', 'lizard', 'spock'];
+  const winner = (5 + moves.indexOf(pl2) - moves.indexOf(pl1)) % 5;
+  
+  return winner ? `Player ${winner % 2 ? 1 : 2} Won!` : 'Draw!';
+}
 
 ```
 
