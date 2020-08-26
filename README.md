@@ -990,10 +990,11 @@ function rpsls(pl1, pl2){
   return winner ? `Player ${winner % 2 ? 1 : 2} Won!` : 'Draw!';
 }
 ```
-[Find the Capitals]()
+[Find the Capitals](https://www.codewars.com/kata/53573877d5493b4d6e00050c/solutions/javascript/me/best_practice)
+
 ```js
 
-```
+
 
 
 
