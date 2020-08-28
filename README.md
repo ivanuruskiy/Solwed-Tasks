@@ -991,7 +991,7 @@ function rpsls(pl1, pl2){
 }
 ```
 [Find the Capitals](https://www.codewars.com/kata/53573877d5493b4d6e00050c/solutions/javascript/me/best_practice)
-[]
+
 
 
 
