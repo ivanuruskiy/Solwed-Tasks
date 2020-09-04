@@ -1005,6 +1005,8 @@ function capital(capitals){
   
   return arr;
 }
+// 
+
 ```
 
 
