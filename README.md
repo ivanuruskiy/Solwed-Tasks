@@ -1013,7 +1013,7 @@ function capital(capitals){
 }
 
 ```
-[]
+[Test's results]
 
 
 
