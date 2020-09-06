@@ -1004,7 +1004,7 @@ function capital(capitals){
   }
   return arr;
 }
-//  OR 2ND SOL.
+//  OR 2ND SOLUTION.
 
 ```
 
