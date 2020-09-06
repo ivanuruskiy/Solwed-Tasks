@@ -1000,12 +1000,11 @@ function capital(capitals){
     }
     if (capitals[i].hasOwnProperty('country')){
       arr.push(`The capital of ${capitals[i]['country']} is ${capitals[i]['capital']}`);
+   }
   }
-  }
-  
   return arr;
 }
-//  OR 
+//  OR 2ND
 
 ```
 
