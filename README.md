@@ -1006,6 +1006,12 @@ function capital(capitals){
 }
 //  OR 2ND SOLUTION.
 
+function capital(capitals){
+  return capitals.map(function(o){
+    return "The capital of " + (o.state || o.country) + " is " + o.capital;
+  });
+}
+
 ```
 
 
