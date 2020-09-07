@@ -1034,7 +1034,7 @@ function testResult(array) {
     return (obj['a'] + obj['l'] === 0) ? [sumAvr, obj, 'They did well'] : [sumAvr, obj];
 }
 
-//  OR
+//  OR 2ND
 ```
 
 
