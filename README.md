@@ -1035,6 +1035,21 @@ function testResult(array) {
 }
 
 //  OR 2ND SOLUTION.
+
+function testResult(array) {
+let count = 0;
+let obj = {'h': 0, 'a': 0, 'l': 0};
+let arr = [];
+for( let i in array) {
+count += array[i];
+if (array[i] > 8) obj['h'] ++;
+else if (array[i] > 6) obj['a'] ++;
+else obj['l'] ++;
+} return (obj['a'] == 0 && obj['l'] == 0)?
+[+(count/array.length).toFixed(3), obj,'They did well']:
+[+(count/array.length).toFixed(3), obj];
+}
+
 ```
 
 
