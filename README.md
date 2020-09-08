@@ -1048,9 +1048,10 @@ else obj['l'] ++;
 } return (obj['a'] == 0 && obj['l'] == 0)?
 [+(count/array.length).toFixed(3), obj,'They did well']:
 [+(count/array.length).toFixed(3), obj];
-}
+};
 
 ```
+
 
 
 
