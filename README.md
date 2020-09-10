@@ -1064,7 +1064,7 @@ function solve(a, b) {
   else if (sumA < sumB) return  `${sumA}, ${sumB}: Bob made "Jeff" proud!`
   else return  `${sumA}, ${sumB}: that looks like a "draw"! Rock on!`
   
-}
+};
 ```
 
 
