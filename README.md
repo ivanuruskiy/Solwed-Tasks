@@ -1065,6 +1065,8 @@ function solve(a, b) {
   else return  `${sumA}, ${sumB}: that looks like a "draw"! Rock on!`
   
 };
+
+// OR 2ND SOL...
 ```
 
 
