@@ -1066,7 +1066,7 @@ function solve(a, b) {
   
 };
 
-// OR 2ND SOL...
+// OR 2ND SOLUTION.
 ```
 
 
