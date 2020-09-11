@@ -1067,6 +1067,22 @@ function solve(a, b) {
 };
 
 // OR 2ND SOLUTION.
+
+function solve(a, b) {
+
+let scoreA = 0;
+let scoreB = 0;  
+
+for (let i = 0; i < 3; i++ ){
+if (a[i] > b[i]) scoreA +=1; 
+if (a[i] < b[i]) scoreB +=1; 
+  
+  }
+if (scoreA > scoreB) return `${scoreA}, ${scoreB}: Alice made "Kurt" proud!`; 
+if (scoreA < scoreB) return `${scoreA}, ${scoreB}: Bob made "Jeff" proud!`; 
+if (scoreA === scoreB) return `${scoreA}, ${scoreB}: that looks like a "draw"! Rock on!`;   
+};
+
 ```
 
 
