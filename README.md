@@ -1084,7 +1084,8 @@ if (scoreA === scoreB) return `${scoreA}, ${scoreB}: that looks like a "draw"! R
 };
 
 ```
-[Bumps in the Road]()
+[Bumps in the Road](https://www.codewars.com/kata/57ed30dde7728215300005fa/solutions/javascript/me/best_practice)
+
 
 
 
