@@ -1085,7 +1085,20 @@ if (scoreA === scoreB) return `${scoreA}, ${scoreB}: that looks like a "draw"! R
 
 ```
 [Bumps in the Road](https://www.codewars.com/kata/57ed30dde7728215300005fa/solutions/javascript/me/best_practice)
-
+```
+function bump(x){
+  let count = 0;
+  for(let i = 0;i<=x.length;i++){
+if(x[i]==='n'){
+  count++
+}
+}if(count>15){
+  return "Car Dead"
+}else{
+  return "Woohoo!"
+}
+  }
+```
 
 
 
