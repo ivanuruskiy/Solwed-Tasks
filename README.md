@@ -1099,7 +1099,7 @@ if(x[i]==='n'){
 }
   };
 
-//  OR 2ND SOLUTION.
+//  OR/AND 2ND SOLUTION.
 
 
 ```
