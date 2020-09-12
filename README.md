@@ -1101,6 +1101,8 @@ if(x[i]==='n'){
 
 //  OR/AND 2ND SOLUTION.
 
+const bump = x =>
+  --x.split(`n`).length > 15 ? `Car Dead` : `Woohoo!`;
 
 ```
 
