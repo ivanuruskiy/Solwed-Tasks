@@ -1106,7 +1106,8 @@ const bump = x =>
 
 ```
 
-[Credit Card Mask]()
+[Credit Card Mask](https://www.codewars.com/kata/5412509bd436bd33920011bc/solutions/javascript/me/best_practice)
+
 
 
 
