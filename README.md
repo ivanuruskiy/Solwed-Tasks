@@ -1107,7 +1107,15 @@ const bump = x =>
 ```
 
 [Credit Card Mask](https://www.codewars.com/kata/5412509bd436bd33920011bc/solutions/javascript/me/best_practice)
-
+```
+function maskify(cc) {
+let a = '';
+  for (let i = 0; i < cc.length; i++)
+    {if(i<cc.length-4) {a+='#'}
+  else a+=cc[i];}
+  return a;
+};
+```
 
 
 
