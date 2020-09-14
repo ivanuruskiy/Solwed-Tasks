@@ -1115,6 +1115,9 @@ let a = '';
   else a+=cc[i];}
   return a;
 };
+
+// OR 2ND SOLUTION.
+
 ```
 
 
