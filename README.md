@@ -1131,7 +1131,7 @@ function spacify(str) {
   return nStr + str[str.length-1];
 };
 
-
+// OR 2ND SOLUTION.
 ```
 
 
