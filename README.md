@@ -1132,6 +1132,9 @@ function spacify(str) {
 };
 
 // OR 2ND SOLUTION.
+
+const spacify = str => [...str].join(' ');
+
 ```
 
 
