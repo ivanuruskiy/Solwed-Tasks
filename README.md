@@ -1146,6 +1146,8 @@ function solution(str) {
   }
   return newStr;
 }
+
+// OR 2ND SOLUTION.
 ```
 
 
