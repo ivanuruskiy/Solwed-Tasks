@@ -1148,7 +1148,11 @@ function solution(str) {
 }
 
 // OR 2ND SOLUTION.
+
+const solution = s => [...s].reverse().join('')
+
 ```
+
 
 
 
