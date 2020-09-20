@@ -1177,7 +1177,10 @@ const factorial = n => n <= 0 ? 1 : n * factorial(n - 1);
 
 ```
 
-[Powers of 3]()
+[Powers of 3](https://www.codewars.com/kata/57be674b93687de78c0001d9/solutions/javascript/me/best_practice)
+```
+
+```
 
 
 
