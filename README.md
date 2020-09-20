@@ -1159,7 +1159,10 @@ function solution(str){
 
 ```
 
-[Factorial]()
+[Factorial](https://www.codewars.com/kata/57a049e253ba33ac5e000212/solutions/javascript/me/best_practice)
+```
+
+```
 
 
 
