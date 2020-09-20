@@ -1145,13 +1145,23 @@ function solution(str) {
     newStr += str[i];
   }
   return newStr;
-}
+};
 
 // OR 2ND SOLUTION.
 
 const solution = s => [...s].reverse().join('')
 
+// AND 3RD SOLUTION.
+
+function solution(str){
+  return str.split('').reverse().join('');  
+};
+
 ```
+
+
+
+
 
 
 
