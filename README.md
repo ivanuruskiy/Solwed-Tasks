@@ -1170,6 +1170,11 @@ function factorial(n){
   }
   return product;
 };
+
+// OR 2ND SOLUTION.
+
+const factorial = n => n <= 0 ? 1 : n * factorial(n - 1);
+
 ```
 
 
