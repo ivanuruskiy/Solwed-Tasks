@@ -1187,6 +1187,7 @@ function largestPower(n){
   return k-1;
 };
 
+//  OR 2ND SOLUTION.
 ```
 
 
