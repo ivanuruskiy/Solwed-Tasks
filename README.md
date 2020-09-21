@@ -1214,6 +1214,7 @@ function breakChocolate(n,m) {
  }
 };
 
+// OR 2ND SOLUTION.
 ```
 
 
