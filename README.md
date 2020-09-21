@@ -1203,7 +1203,10 @@ function largestPower(n){
 
 ```
 
-[Breaking chocolate problem]
+[Breaking chocolate problem](https://www.codewars.com/kata/534ea96ebb17181947000ada/solutions/javascript/me/best_practice)
+```
+
+```
 
 
 
