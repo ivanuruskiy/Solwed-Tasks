@@ -1232,6 +1232,7 @@ function converter (mpg) {
   return parseFloat(kpl.toFixed(2));
 };
 
+// OR 2ND SOLUTION.
 ```
 
 
