@@ -1246,7 +1246,10 @@ function converter (mpg) {
 
 ```
 
-[Counting sheep...]
+[Counting sheep...](https://www.codewars.com/kata/54edbc7200b811e956000556/solutions/javascript/me/best_practice)
+```
+
+```
 
 
 
