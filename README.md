@@ -1240,6 +1240,10 @@ function converter (mpg) {
 
  // AND 3RD SOLUTION.
 
+function converter (mpg) {
+  return Math.round( mpg * 160.9344 / 4.54609188 ) / 100
+};
+
 ```
 
 []
