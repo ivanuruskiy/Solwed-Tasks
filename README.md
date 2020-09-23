@@ -1224,7 +1224,15 @@ function breakChocolate(n,m) {
 ```
 
 [Miles per gallon to kilometers per liter](https://www.codewars.com/kata/557b5e0bddf29d861400005d/solutions/javascript/me/best_practice)
+```
+function converter (mpg) {
+  let kil = 1.609344;
+  let lit = 4.54609188
+  let kpl = mpg * kil / lit;
+  return parseFloat(kpl.toFixed(2));
+};
 
+```
 
 
 
