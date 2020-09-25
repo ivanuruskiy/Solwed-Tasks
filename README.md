@@ -1258,7 +1258,11 @@ function countSheeps(arr) {
   }
 
   return count;
-}
+};
+
+// OR 2ND SOLUTION.
+
+
 ```
 
 
