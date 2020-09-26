@@ -1269,7 +1269,15 @@ function countSheeps(arr) {
 ```
 
 [Sum of positive](https://www.codewars.com/kata/5715eaedb436cf5606000381/solutions/javascript/me/best_practice)
+```
+function positiveSum(arr) {
+  let sum=0
+  for(let el of arr){
+    if (el>0){sum =sum+el} }
+return sum
+};
 
+```
 
 
 
