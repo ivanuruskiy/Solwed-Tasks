@@ -1287,9 +1287,11 @@ function positiveSum(arr) {
   }
   
   return sum;
-}
+};
 
 ```
+
+[]
 
 
 
