@@ -1262,6 +1262,9 @@ function countSheeps(arr) {
 
 // OR 2ND SOLUTION.
 
+function countSheeps(arr) {
+  return arr.filter(Boolean).length;
+};
 
 ```
 
