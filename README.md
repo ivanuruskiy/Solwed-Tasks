@@ -1277,6 +1277,7 @@ function positiveSum(arr) {
 return sum
 };
 
+// OR 2ND SOLUTION.
 ```
 
 
