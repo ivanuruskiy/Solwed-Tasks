@@ -1291,7 +1291,19 @@ function positiveSum(arr) {
 
 ```
 
-[Simple Fun #152: Invite More Women?]
+[Simple Fun #152: Invite More Women?](https://www.codewars.com/kata/58acfe4ae0201e1708000075/solutions/javascript/me/best_practice)
+```
+
+function inviteMoreWomen(L) {
+  let sum=0
+  for(let i = 0; i<L.length; i++){
+    sum+=L[i];
+  }  
+  if(sum>0) return true;
+  if(sum<=0) return false;
+};
+
+```
 
 
 
