@@ -1326,6 +1326,10 @@ let num = '';
 
 // 2ND SOLUTION.
 
+function FilterString(value) {
+  return Number(value.replace(/[^\d]/g, ""))
+}
+
 ```
 
 
