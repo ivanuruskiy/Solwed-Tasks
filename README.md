@@ -1305,6 +1305,10 @@ function inviteMoreWomen(L) {
 
 // OR 2ND SOLUTION.
 
+function inviteMoreWomen(L) {
+  return L.reduce((a,b) => a+b) > 0;
+}
+
 ```
 
 
