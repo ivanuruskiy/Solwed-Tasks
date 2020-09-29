@@ -1313,6 +1313,16 @@ function inviteMoreWomen(L) {
 
 [Filter the number](https://www.codewars.com/kata/55b051fac50a3292a9000025/solutions/javascript/me/best_practice)
 ```
+var FilterString = function(value) {
+
+let str = value;
+let num = '';
+  for(let i = 0; i < str.length; i++){
+    if(isNaN(str[i]) == false) 
+    num += str[i];
+    }
+    return + num;
+  };
 
 ```
 
