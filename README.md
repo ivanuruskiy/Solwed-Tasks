@@ -1324,6 +1324,8 @@ let num = '';
     return + num;
   };
 
+// 2ND SOLUTION.
+
 ```
 
 
