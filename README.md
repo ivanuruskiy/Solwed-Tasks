@@ -1311,7 +1311,10 @@ function inviteMoreWomen(L) {
 
 ```
 
-[Filter the number]()
+[Filter the number](https://www.codewars.com/kata/55b051fac50a3292a9000025/solutions/javascript/me/best_practice)
+```
+
+```
 
 
 
