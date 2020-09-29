@@ -1332,6 +1332,8 @@ function FilterString(value) {
 
 ```
 
+[Basic Training: Add item to an Array]
+
 
 
 
