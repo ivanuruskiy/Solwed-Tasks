@@ -1344,7 +1344,10 @@ websites[0]="codewars";
 
 ```
 
-[Sum Arrays]()
+[Sum Arrays](https://www.codewars.com/kata/53dc54212259ed3d4f00071c/solutions/javascript/me/best_practice)
+```
+
+```
 
 
 
