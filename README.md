@@ -1355,6 +1355,9 @@ function sum (numbers) {
     } return sumNum;
     
 };
+
+// OR 2ND SOLUTION.
+
 ```
 
 
