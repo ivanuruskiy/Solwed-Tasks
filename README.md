@@ -1344,7 +1344,7 @@ websites[0]="codewars";
 
 ```
 
-[]
+[Sum Arrays]()
 
 
 
