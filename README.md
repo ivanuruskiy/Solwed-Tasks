@@ -1338,6 +1338,10 @@ function FilterString(value) {
 websites.push('codewars')
 
 // OR 2ND SOL.
+
+// add the value "codewars" to the already defined websit
+websites[0]="codewars";
+
 ```
 
 
