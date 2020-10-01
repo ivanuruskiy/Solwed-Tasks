@@ -1337,6 +1337,7 @@ function FilterString(value) {
 // add the value "codewars" to the already defined websites array
 websites.push('codewars')
 
+// OR 2ND SOL.
 ```
 
 
