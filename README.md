@@ -1394,6 +1394,13 @@ function sumEvenNumbers(input) {
 
 [Find the Slope](https://www.codewars.com/kata/55a75e2d0803fea18f00009d/solutions/javascript/me/best_practice)
 ```
+function slope(points)
+{
+  let deltaX = points[3] - points[1];
+  let deltaY = points[2] - points[0];
+  return (deltaY === 0)? 'undefined': `${deltaX / deltaY}`;
+};
+
 
 ```
 
