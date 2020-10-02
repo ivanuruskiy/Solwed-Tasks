@@ -1364,7 +1364,10 @@ function sum(numbers) {
 
 ```
 
-[Sum even numbers]()
+[Sum even numbers](https://www.codewars.com/kata/586beb5ba44cfc44ed0006c3/solutions/javascript/me/best_practice)
+```
+
+```
 
 
 
