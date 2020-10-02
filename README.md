@@ -1392,7 +1392,10 @@ function sumEvenNumbers(input) {
 
 ```
 
-[Find the Slope]
+[Find the Slope](https://www.codewars.com/kata/55a75e2d0803fea18f00009d/solutions/javascript/me/best_practice)
+```
+
+```
 
 
 
