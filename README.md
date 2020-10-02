@@ -1380,6 +1380,16 @@ function sumEvenNumbers(input) {
 
 // OR 2ND SOLUTION.
 
+function sumEvenNumbers(input) {
+  let sum = 0;
+  for(let elm of input){
+      if(elm %2 === 0){
+          sum = sum + elm;
+      }
+  }
+  return sum;
+}
+
 ```
 
 
