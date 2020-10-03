@@ -1401,6 +1401,7 @@ function slope(points)
   return (deltaY === 0)? 'undefined': `${deltaX / deltaY}`;
 };
 
+// OR 2ND SOLUTION.
 
 ```
 
