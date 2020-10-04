@@ -1416,7 +1416,12 @@ function slope(points) {
 ```
 [Generate range of integers](https://www.codewars.com/kata/55eca815d0d20962e1000106/solutions/javascript/me/best_practice)
 ```
-
+function generateRange(min, max, step){
+  let arr = [];
+  for (let x = min ; x <= max ; x += step)
+    arr.push(x);
+  return arr;
+}
 ```
 
 
