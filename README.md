@@ -1422,6 +1422,9 @@ function generateRange(min, max, step){
     arr.push(x);
   return arr;
 }
+
+// OR 2ND SOLUTION.
+
 ```
 
 
