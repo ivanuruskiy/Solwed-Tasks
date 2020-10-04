@@ -1414,7 +1414,8 @@ function slope(points) {
 }
 
 ```
-[Generate range of integers]
+[Generate range of integers](https://www.codewars.com/kata/55eca815d0d20962e1000106/solutions/javascript/me/best_practice)
+
 
 
 
