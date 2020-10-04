@@ -1403,9 +1403,18 @@ function slope(points)
 
 // OR 2ND SOLUTION.
 
-//
+function slope(points) {
+  let dx = points[2] - points[0],
+      dy = points[3] - points[1]
+      
+  if (dx == 0)
+    return 'undefined'
+  
+  return (dy/dx) + ''
+}
 
 ```
+
 
 
 
