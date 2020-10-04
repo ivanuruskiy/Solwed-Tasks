@@ -1414,7 +1414,7 @@ function slope(points) {
 }
 
 ```
-[]
+[Generate range of integers]
 
 
 
