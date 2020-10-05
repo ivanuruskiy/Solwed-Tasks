@@ -1425,6 +1425,15 @@ function generateRange(min, max, step){
 
 // OR 2ND SOLUTION.
 
+function generateRange(min, max, step){
+  var arr = [];
+  while (min <= max) {
+    arr.push(min);
+    min += step;
+  }
+  return arr
+}
+
 ```
 
 
