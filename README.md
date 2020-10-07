@@ -1435,7 +1435,7 @@ function generateRange(min, max, step){
 }
 ```
 
-[]
+[Coefficients of the Quadratic Equation]
 
 
 
