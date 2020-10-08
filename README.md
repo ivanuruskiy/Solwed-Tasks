@@ -1459,6 +1459,11 @@ function squares(x, n) {
     x = x ** 2;
   } return arr;
 };
+
+// OR 2ND SOLUTION.
+
+
+
 ```
 
 
