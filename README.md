@@ -1450,7 +1450,16 @@ const quadratic = (x1, x2) => [
 ]
 
 ```
-
+[Squares sequence](https://www.codewars.com/kata/5546180ca783b6d2d5000062/solutions/javascript/me/best_practice)
+```
+function squares(x, n) {
+  let arr = [];
+  for (let i = 0; i < n; i++) {
+    arr.push(x);
+    x = x ** 2;
+  } return arr;
+};
+```
 
 
 
