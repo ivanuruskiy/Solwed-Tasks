@@ -1462,7 +1462,13 @@ function squares(x, n) {
 
 // OR 2ND SOLUTION.
 
-
+function squares(x, n) {
+  const arr = [];
+    for (let i = x; arr.length < n; i = i ** 2) {
+      arr.push(i);
+  }
+  return arr
+};
 
 ```
 
