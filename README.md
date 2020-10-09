@@ -1482,6 +1482,8 @@ function iceBrickVolume(radius, bottleLength, rimLength) {
 
 // OR 2ND SOLUTION.
 
+const iceBrickVolume = (r, x, y) => 2 * r * r * (x - y);
+
 ```
 
 
