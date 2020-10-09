@@ -1493,6 +1493,8 @@ function howMuchILoveYou(nbPetals) {
     return phrases[(nbPetals%6) ];
 }
 
+// OR 2ND SOLUTION.
+
 ```
 
 
