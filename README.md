@@ -1507,7 +1507,7 @@ function howMuchILoveYou(nbPetals) {
   return phrase[nbPetals%6]
 }
 ```
-[]
+[Function 3 - multiplying two numbers]()
 
 
 
