@@ -1507,7 +1507,10 @@ function howMuchILoveYou(nbPetals) {
   return phrase[nbPetals%6]
 }
 ```
-[Function 3 - multiplying two numbers]()
+[Function 3 - multiplying two numbers](https://www.codewars.com/kata/523b66342d0c301ae400003b/solutions/javascript/me/best_practice)
+```
+
+```
 
 
 
