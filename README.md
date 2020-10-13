@@ -1513,7 +1513,7 @@ function multiply( a, b ){
   return a * b;
 }
 
-//
+// OR 2ND SOLUTION.
 
 ```
 
