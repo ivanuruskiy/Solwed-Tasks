@@ -1515,6 +1515,10 @@ function multiply( a, b ){
 
 // OR 2ND SOLUTION.
 
+function multiply(a, b){
+  if(typeof a == 'number' && typeof b == 'number')
+    return a * b;  
+}
 ```
 
 
