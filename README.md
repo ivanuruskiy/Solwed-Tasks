@@ -1544,8 +1544,9 @@ function sum(...num) {
 }
 
 var totalGoals = sum(laLigaGoals, championsLeagueGoals, copaDelReyGoals)
-
 ```
+
+[]
 
 
 
