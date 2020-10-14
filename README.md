@@ -1531,6 +1531,20 @@ var totalGoals = laLigaGoals + championsLeagueGoals + copaDelReyGoals
 
 //OR 2ND SOLUTION.
 
+var laLigaGoals = 43
+var championsLeagueGoals = 10
+var copaDelReyGoals = 5
+
+function sum(...num) {
+  let ad = 0;
+  num.forEach( e => {
+    ad+=e
+  })
+  return ad            
+}
+
+var totalGoals = sum(laLigaGoals, championsLeagueGoals, copaDelReyGoals)
+
 ```
 
 
