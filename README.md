@@ -1521,7 +1521,10 @@ function multiply(a, b){
 }
 ```
 
-[Grasshopper - Messi Goals]
+[Grasshopper - Messi Goals](https://www.codewars.com/kata/55ca77fa094a2af31f00002a/solutions/javascript/me/best_practice)
+```
+
+```
 
 
 
