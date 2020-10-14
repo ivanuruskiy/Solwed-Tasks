@@ -1528,7 +1528,12 @@ var championsLeagueGoals = 10
 var copaDelReyGoals = 5
 
 var totalGoals = laLigaGoals + championsLeagueGoals + copaDelReyGoals
+
+//OR 2ND SOLUTION.
+
 ```
+
+
 
 
 
