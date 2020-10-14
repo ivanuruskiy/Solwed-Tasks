@@ -1546,7 +1546,13 @@ function sum(...num) {
 var totalGoals = sum(laLigaGoals, championsLeagueGoals, copaDelReyGoals)
 ```
 
-[Count Odd Numbers below n]
+[Count Odd Numbers below n](https://www.codewars.com/kata/59342039eb450e39970000a6/solutions/javascript/me/best_practice)
+```
+function oddCount(n){
+  return Math.floor(n/2);
+}
+
+```
 
 
 
