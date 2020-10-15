@@ -1552,6 +1552,8 @@ function oddCount(n){
   return Math.floor(n/2);
 }
 
+// OR 2ND SOLUTION.
+
 ```
 
 
