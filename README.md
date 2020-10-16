@@ -1554,6 +1554,7 @@ function oddCount(n){
 
 // OR 2ND SOLUTION.
 
+const oddCount = n => Math.floor(n/2) ;
 ```
 
 
