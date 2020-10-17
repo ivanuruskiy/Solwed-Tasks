@@ -1569,7 +1569,7 @@ function fixTheMeerkat(arr) {
 }
 ```
 
-[Convert number to reversed array of digits]
+[Convert number to reversed array of digits]()
 
 
 
