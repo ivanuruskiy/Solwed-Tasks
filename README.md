@@ -1559,7 +1559,9 @@ const oddCount = n => Math.floor(n/2) ;
 
 [My head is at the wrong end!](https://www.codewars.com/kata/56f699cd9400f5b7d8000b55/solutions/javascript/me/best_practice)
 ```
-
+function fixTheMeerkat(arr) {
+  return arr.reverse();
+}
 ```
 
 
