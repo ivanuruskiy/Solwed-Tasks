@@ -1562,6 +1562,8 @@ const oddCount = n => Math.floor(n/2) ;
 function fixTheMeerkat(arr) {
   return arr.reverse();
 }
+// OR 2ND SOLUTION.
+
 ```
 
 
