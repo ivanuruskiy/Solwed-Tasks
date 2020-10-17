@@ -1571,7 +1571,11 @@ function fixTheMeerkat(arr) {
 
 [Convert number to reversed array of digits](https://www.codewars.com/kata/5583090cbe83f4fd8c000051/solutions/javascript/me/best_practice)
 ```
-
+function digitize(n) {
+  n = n + '';
+  return n.split('').reverse().map(el => + el);
+  console.log(arr);
+};
 ```
 
 
