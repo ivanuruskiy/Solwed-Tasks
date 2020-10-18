@@ -1576,6 +1576,7 @@ function digitize(n) {
   return n.split('').reverse().map(el => + el);
   console.log(arr);
 };
+// OR/AND 2ND SOLUTION.
 ```
 
 
