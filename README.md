@@ -1597,6 +1597,15 @@ function skiponacci(n) {
 }
 // OR/AND 2ND SOLUTION.
 
+function skiponacci(n) {
+  if (n === 1) return '1';
+let fib = [1, 1];
+  for (let i = 2; i < n; i++){
+    fib.push(fib[i-1] + fib[i - 2])
+  }
+  return arr = fib.map((el, i) => i % 2 !== 0? 'skip' : el).join(' ')
+}
+
 ```
 
 
