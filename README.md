@@ -1595,6 +1595,8 @@ function skiponacci(n) {
   }
   return fib.map((el, i) => i % 2 !== 0? 'skip' : el).join(' ');
 }
+// OR/AND 2ND SOLUTION.
+
 ```
 
 
