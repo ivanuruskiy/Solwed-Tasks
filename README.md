@@ -1578,7 +1578,11 @@ function digitize(n) {
 };
 // OR/AND 2ND SOLUTION.
 
-//
+function digitize(n) {
+  return n.toString().split("").reverse().map(function(i){
+    return parseInt(i);
+  });
+}
 ```
 
 
