@@ -1605,10 +1605,9 @@ let fib = [1, 1];
   }
   return arr = fib.map((el, i) => i % 2 !== 0? 'skip' : el).join(' ')
 }
-
 ```
 
-[]
+[Take an Arrow to the knee, Functionally]
 
 
 
