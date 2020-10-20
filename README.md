@@ -1585,7 +1585,10 @@ function digitize(n) {
 }
 ```
 
-[The Skiponacci Sequence]()
+[The Skiponacci Sequence](https://www.codewars.com/kata/580777ee2e14accd9f000165/solutions/javascript/me/best_practice)
+```
+
+```
 
 
 
