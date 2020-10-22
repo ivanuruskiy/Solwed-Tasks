@@ -1607,7 +1607,8 @@ let fib = [1, 1];
 }
 ```
 
-[Take an Arrow to the knee, Functionally]()
+[Take an Arrow to the knee, Functionally](https://www.codewars.com/kata/559f3123e66a7204f000009f/solutions/javascript/me/best_practice)
+
 
 
 
