@@ -1609,7 +1609,9 @@ let fib = [1, 1];
 
 [Take an Arrow to the knee, Functionally](https://www.codewars.com/kata/559f3123e66a7204f000009f/solutions/javascript/me/best_practice)
 ```
-
+var ArrowFunc = function(arr) {
+  return arr.map(el => String.fromCharCode(el)).join(''); //Complete this function
+}
 ```
 
 
