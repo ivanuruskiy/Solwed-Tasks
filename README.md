@@ -1612,6 +1612,8 @@ let fib = [1, 1];
 var ArrowFunc = function(arr) {
   return arr.map(el => String.fromCharCode(el)).join(''); //Complete this function
 }
+// OR 2ND SOLUTION.
+
 ```
 
 
