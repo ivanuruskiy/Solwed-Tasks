@@ -1614,7 +1614,10 @@ var ArrowFunc = function(arr) {
 }
 // OR 2ND SOLUTION.
 
+const ArrowFunc = (arr) => arr.map(c => String.fromCharCode(c)).join("")
+
 ```
+
 
 
 
