@@ -1617,7 +1617,7 @@ var ArrowFunc = function(arr) {
 const ArrowFunc = (arr) => arr.map(c => String.fromCharCode(c)).join("")
 
 ```
-[]
+[No Loops 2 - You only need one]
 
 
 
