@@ -1622,6 +1622,8 @@ const ArrowFunc = (arr) => arr.map(c => String.fromCharCode(c)).join("")
 function check(a, x) {
   return a.includes(x);
 }
+// OR/AND 2ND SOLUTION.
+
 ```
 
 
