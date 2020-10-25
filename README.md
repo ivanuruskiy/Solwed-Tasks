@@ -1624,6 +1624,8 @@ function check(a, x) {
 }
 // OR/AND 2ND SOLUTION.
 
+const check = (a,x) => a.includes(x);
+
 ```
 
 
