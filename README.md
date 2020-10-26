@@ -1633,6 +1633,10 @@ function check(a,x){
 };
 // OR/AND 2ND SOLUTION.
 
+function check(a,x){
+  return a.indexOf(x) > -1 ? true : false;
+};
+
 ```
 
 
