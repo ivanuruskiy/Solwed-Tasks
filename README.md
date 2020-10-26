@@ -1626,7 +1626,7 @@ function check(a, x) {
 
 const check = (a,x) => a.includes(x);
 ```
-[]()
+[You only need one - Beginner]()
 
 
 
