@@ -1643,6 +1643,7 @@ function check(a,x){
 function getEvenNumbers(numbersArray){
   return numbersArray.filter(el => el % 2 === 0);
 }
+// OR/AND 2ND SOLUTION.
 ```
 
 
