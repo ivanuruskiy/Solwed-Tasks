@@ -1644,6 +1644,12 @@ function getEvenNumbers(numbersArray){
   return numbersArray.filter(el => el % 2 === 0);
 }
 // OR/AND 2ND SOLUTION.
+
+function getEvenNumbers(numbersArray){
+  return numbersArray.filter(function(n){
+    return n % 2 == 0;
+  });
+}
 ```
 
 
