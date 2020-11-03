@@ -1656,6 +1656,7 @@ function getEvenNumbers(numbersArray){
 function filterEvenLengthWords(words) {
   return words.filter(el => el.length % 2 === 0);
 }
+// OR/AND 2ND SOLUTION.
 ```
 
 
