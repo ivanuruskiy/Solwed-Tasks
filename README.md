@@ -1657,6 +1657,19 @@ function filterEvenLengthWords(words) {
   return words.filter(el => el.length % 2 === 0);
 }
 // OR/AND 2ND SOLUTION.
+
+function filterEvenLengthWords(words){
+  //let count = 0;
+  let arr = [];
+  for(let i = 0; i < words.length; i++){
+    if(words[i].length % 2 == 0){
+      arr.push(words[i]);
+      //count++;
+    }
+  }
+  //return [count];
+  return arr;
+}
 ```
 
 
