@@ -1677,6 +1677,10 @@ var filterLucky=x=>{
   return x.filter(el => String(el).split('').includes('7'));
 }
 // OR 2ND SOLUTION.
+
+function filterLucky(arr) {
+  return arr.filter((elem) => elem.toString().includes('7'));
+}
 ```
 
 
