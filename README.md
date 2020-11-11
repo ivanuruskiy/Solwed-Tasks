@@ -1676,6 +1676,7 @@ function filterEvenLengthWords(words){
 var filterLucky=x=>{
   return x.filter(el => String(el).split('').includes('7'));
 }
+// OR 2ND SOLUTION.
 ```
 
 
