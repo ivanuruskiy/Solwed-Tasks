@@ -1689,6 +1689,10 @@ function filter_list(l) {
   return l.filter((el) => typeof el === 'number' );
 }
 OR 2ND SOLUTION.
+
+function filter_list(l) {
+ return l.filter(v => typeof v == "number")
+}
 ```
 
 
