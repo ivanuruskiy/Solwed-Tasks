@@ -1700,6 +1700,7 @@ function filter_list(l) {
 function arrayDiff(a, b) {
   return a.filter( ( el ) => !b.includes( el ) );
 }
+// OR/AND 2ND SOLUTION.
 ```
 
 
