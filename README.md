@@ -1702,7 +1702,7 @@ function arrayDiff(a, b) {
 }
 // OR/AND 2ND SOLUTION.
 
-
+array_diff = require("lodash").difference;
 ```
 
 
