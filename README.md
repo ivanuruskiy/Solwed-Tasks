@@ -1695,9 +1695,11 @@ function filter_list(l) {
 }
 ```
 
-[Array.diff]()
+[Array.diff](https://www.codewars.com/kata/523f5d21c841566fde000009/solutions/javascript/me/best_practice)
 ```
-
+function arrayDiff(a, b) {
+  return a.filter( ( el ) => !b.includes( el ) );
+}
 ```
 
 
