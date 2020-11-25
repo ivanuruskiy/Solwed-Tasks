@@ -1711,6 +1711,12 @@ const closestMultiple10 = num => {
   return Math.round(num/10)*10;
 };
 // OR/AND 2ND SOLUTION.
+
+function closestMultiple10 (num) {
+  let x = num % 10;
+  let y = num - x;
+  return x >= 5 ? y + 10 : y;
+}
 ```
 
 
