@@ -1710,6 +1710,7 @@ array_diff = require("lodash").difference;
 const closestMultiple10 = num => {
   return Math.round(num/10)*10;
 };
+// OR/AND 2ND SOLUTION.
 ```
 
 
