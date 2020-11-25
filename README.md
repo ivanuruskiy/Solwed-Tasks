@@ -1719,6 +1719,11 @@ function closestMultiple10 (num) {
 }
 ```
 
+[Two Oldest Ages](https://www.codewars.com/kata/511f11d355fe575d2c000001/solutions/javascript/me/best_practice)
+```
+
+```
+
 
 
 
