@@ -1725,6 +1725,7 @@ function twoOldestAges(ages){
   ages = ages.sort((a, b) => b - a);
   return [ages[1], ages[0]];
 }
+// OR/AND 2ND SOLUTION.
 ```
 
 
