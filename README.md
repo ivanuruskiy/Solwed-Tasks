@@ -1800,7 +1800,7 @@ function solve(arr){
 }
 ```
 
-[]
+[Be Concise I - The Ternary Operator]
 
 
 
