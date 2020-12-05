@@ -1744,7 +1744,63 @@ function solve(arr){
   return arr;
 }
 // OR 2ND SOLUTION.
+
+function solve(arr){
+  
+    console.log(arr)
+
+    // Сортируем массив по значениям
+    let sorted = []
+    sorted = arr.sort(function(a,b){
+        return a-b
+    })
+
+  
+    // Создаем 2d массив с элементом и количестов появлений
+    let sorted_2d = []
+    while (sorted.length){
+        let item = sorted.shift()
+        let count = 1
+        for(let i of sorted){
+            if (item === i) {
+                count += 1
+            }
+        }
+        sorted = sorted.filter(function(x){
+            return x != item
+        })
+        sorted_2d.push([item, count])
+    }
+ 
+    console.log('перед сортировкой', sorted_2d)
+    // Сортируем 2д массив по количеству появлений
+    sorted_2d = sorted_2d.sort(function(a,b){
+        if (a[1] === b[1]) {
+            return a[0]-b[0]
+        }
+        return b[1] - a[1]
+    })
+    console.log('после сортировки', sorted_2d)
+
+
+    // Создаем финальный массив
+    let final = []
+    for (let i of sorted_2d) {
+        let elem = i[0]
+        let elem_count = i[1]
+        let count = 1
+        while (count <= elem_count) {
+            final.push(elem)
+            count += 1
+        }
+    }
+  
+  console.log(final)
+    return final
+}
 ```
+
+[]
 
 
 
