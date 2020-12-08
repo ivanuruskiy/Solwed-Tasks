@@ -1801,7 +1801,9 @@ function solve(arr){
 ```
 
 [Be Concise I - The Ternary Operator](https://www.codewars.com/kata/56f3f6a82010832b02000f38/solutions/javascript/me/best_practice)
+```
 
+```
 
 
 
