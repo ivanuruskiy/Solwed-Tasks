@@ -1808,6 +1808,15 @@ function describeAge(a) {
   return `You're a(n) ${a<= 12?"kid":a>=13&&a<=17?"teenager":a>=18&&a<=64?"adult":"elderly"}`
 }
 // OR 2ND SOLUTION.
+
+function describeAge(a) {    
+  return "You're a(n) " + (
+    a > 64 ? "elderly":
+      a > 17 ? "adult":
+        a > 12 ? "teenager":
+          "kid"
+    );
+}
 ```
 
 
