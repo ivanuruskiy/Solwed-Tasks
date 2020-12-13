@@ -1827,7 +1827,8 @@ describeAge=a=>
 
 ```
 
-[Training JS #29: methods of arrayObject---concat() and join()]
+[Training JS #29: methods of arrayObject---concat() and join()](https://www.codewars.com/kata/5731861d05d14d6f50000626/solutions/javascript/me/best_practice)
+
 
 
 
