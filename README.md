@@ -1827,7 +1827,7 @@ describeAge=a=>
 
 ```
 
-[]
+[Training JS #29: methods of arrayObject---concat() and join()]
 
 
 
