@@ -1838,6 +1838,7 @@ function bigToSmall(arr){
   }
   return res.sort((a, b) => b - a).join('>');
 }
+// OR 2ND SOLUTION.
 ```
 
 
