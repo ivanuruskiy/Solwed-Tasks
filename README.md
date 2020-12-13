@@ -1817,6 +1817,7 @@ function describeAge(a) {
           "kid"
     );
 }
+// AND 3RD SOLUTION.
 ```
 
 []
