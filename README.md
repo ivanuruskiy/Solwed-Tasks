@@ -1828,7 +1828,17 @@ describeAge=a=>
 ```
 
 [Training JS #29: methods of arrayObject---concat() and join()](https://www.codewars.com/kata/5731861d05d14d6f50000626/solutions/javascript/me/best_practice)
-
+```
+function bigToSmall(arr){
+ let res = [];
+  
+  for (let el of arr) {
+    res = res.concat(el);
+    
+  }
+  return res.sort((a, b) => b - a).join('>');
+}
+```
 
 
 
