@@ -1839,6 +1839,13 @@ function bigToSmall(arr){
   return res.sort((a, b) => b - a).join('>');
 }
 // OR 2ND SOLUTION.
+
+function bigToSmall(arr){
+ let newArr = [].concat(...arr);
+let newArr1 = newArr.sort((a, b) => b - a).join('>')
+return newArr1
+
+}
 ```
 
 
