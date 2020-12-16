@@ -1849,7 +1849,12 @@ return newArr1
 ```
 
 [Round up to the next multiple of 5](https://www.codewars.com/kata/55d1d6d5955ec6365400006d/solutions/javascript/me/best_practice)
-
+```
+function roundToNext5(n){
+  while(n % 5 !== 0) n++;
+  return n;
+}
+```
 
 
 
