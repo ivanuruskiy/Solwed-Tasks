@@ -1864,9 +1864,15 @@ function roundToNext5(n){
 roundToNext5=a=>Math.ceil(a/5)*5
 ```
 
-[Power](https://www.codewars.com/kata/562926c855ca9fdc4800005b/solutions/javascript)
+[Power](https://www.codewars.com/kata/562926c855ca9fdc4800005b/solutions/javascript/me/best_practice)
 ```
-
+function numberToPower(number, power){
+  let p_0 = 1;
+  for (let i = 1; i <= power; i++) {
+    p_0 *= number;
+  }
+  return p_0;
+}
 ```
 
 
