@@ -1864,7 +1864,7 @@ function roundToNext5(n){
 roundToNext5=a=>Math.ceil(a/5)*5
 ```
 
-[]
+[Power]()
 
 
 
