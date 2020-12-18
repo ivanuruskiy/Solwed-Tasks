@@ -1859,7 +1859,12 @@ function roundToNext5(n){
 function roundToNext5(n){
   return Math.ceil(n/5)*5;
 }
+// Also interesting Solution.
+
+roundToNext5=a=>Math.ceil(a/5)*5
 ```
+
+[]
 
 
 
