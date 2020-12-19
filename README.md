@@ -1873,6 +1873,7 @@ function numberToPower(number, power){
   }
   return p_0;
 }
+// OR 2ND SOLUTION.
 ```
 
 
