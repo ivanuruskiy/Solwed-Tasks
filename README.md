@@ -1884,7 +1884,7 @@ function numberToPower(number, power){
 }
 ```
 
-[]
+[You're a square!]()
 
 
 
