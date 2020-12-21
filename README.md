@@ -1890,6 +1890,8 @@ var isSquare = function(n){
   return Math.sqrt(n)%1===0
 }
 // OR 2ND SOLUTION.
+
+const isSquare = n => Number.isInteger(Math.sqrt(n));
 ```
 
 
