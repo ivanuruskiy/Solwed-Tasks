@@ -1892,7 +1892,11 @@ var isSquare = function(n){
 // OR 2ND SOLUTION.
 
 const isSquare = n => Number.isInteger(Math.sqrt(n));
+
+// AND 3RD SOLUTION.
 ```
+
+[]
 
 
 
