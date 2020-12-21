@@ -1906,7 +1906,11 @@ var isSquare = function(n){
 
 [Find the next perfect square!](https://www.codewars.com/kata/56269eb78ad2e4ced1000013/solutions/javascript/me/best_practice)
 ```
-
+function findNextSquare(sq) {
+  // Return the next square if sq if a perfect square, -1 otherwise
+  sq = Math.sqrt(sq);
+  return sq % 1 === 0 ? Math.pow(sq + 1, 2) : -1;
+}
 ```
 
 
