@@ -1911,6 +1911,7 @@ function findNextSquare(sq) {
   sq = Math.sqrt(sq);
   return sq % 1 === 0 ? Math.pow(sq + 1, 2) : -1;
 }
+//
 ```
 
 
