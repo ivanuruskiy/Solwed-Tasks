@@ -1949,6 +1949,21 @@ console.log(stairs(15));
 
 // OR 2ND SOLUTION.
 
+function stairs(n){
+  let s = '';
+  for (let i = 1; i <= n; i++){  //число строк
+    s += ' '.repeat((n * 4 - i * 4));
+  for(let j = 1; j <= i; j++){  //одна строка 123
+    s = s + (j % 10) + ' ';
+  }
+    for(let j = i; j >= 1; j--){  //одна строка 123
+      s = s + (j % 10) + ' ';
+    }
+    s = s.slice(0, -1);
+   s += '\n';
+  }
+  return s.slice(0, -1);
+}
 ```
 
 
