@@ -1928,7 +1928,10 @@ function findNextSquare(sq) {
 }
 ```
 
-[Walk-up Stairs]
+[Walk-up Stairs](https://www.codewars.com/kata/566c3f5b9de85fdd0e000026/solutions/javascript/me/best_practice)
+```
+
+```
 
 
 
