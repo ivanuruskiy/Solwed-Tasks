@@ -1920,6 +1920,7 @@ function findNextSquare(sq) {
   }
   return -1;
 }
+// AND 3RD SOLUTION.
 ```
 
 []
