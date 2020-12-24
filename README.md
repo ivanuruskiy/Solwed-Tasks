@@ -1921,6 +1921,11 @@ function findNextSquare(sq) {
   return -1;
 }
 // AND 3RD SOLUTION.
+
+function findNextSquare(sq) {
+    let r = Math.sqrt(sq)
+    return r % 1 ? -1 : ++r * r
+}
 ```
 
 []
