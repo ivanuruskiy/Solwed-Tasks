@@ -1946,6 +1946,9 @@ function stairs (n) {
   return s.slice(0, -1);
 }
 console.log(stairs(15));
+
+// OR 2ND SOLUTION.
+
 ```
 
 
