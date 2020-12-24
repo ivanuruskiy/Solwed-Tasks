@@ -1928,7 +1928,7 @@ function findNextSquare(sq) {
 }
 ```
 
-[]
+[Walk-up Stairs]
 
 
 
