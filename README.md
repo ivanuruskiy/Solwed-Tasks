@@ -1967,7 +1967,20 @@ function stairs(n){
 ```
 
 [Complete The Pattern #3 (Horizontal Image of #2)](https://www.codewars.com/kata/557341907fbf439911000022/solutions/javascript/me/best_practice)
-
+```
+function pattern(n){
+ let output = [];
+ 
+   for (let i = n; i >= 1; i--) {
+      let str= '';
+     for (let j = n; j >= i; j--) {
+       str += j;
+     }
+     output.push(str);
+   }
+ return output.join('\n');
+}
+```
 
 
 
