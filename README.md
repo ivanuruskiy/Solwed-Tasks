@@ -1980,6 +1980,7 @@ function pattern(n){
    }
  return output.join('\n');
 }
+// OR 2ND SOLUTION.
 ```
 
 
