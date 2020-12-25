@@ -1966,6 +1966,8 @@ function stairs(n){
 }
 ```
 
+[Complete The Pattern #3 (Horizontal Image of #2)]
+
 
 
 
