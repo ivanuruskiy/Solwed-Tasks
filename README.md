@@ -1966,7 +1966,8 @@ function stairs(n){
 }
 ```
 
-[Complete The Pattern #3 (Horizontal Image of #2)]()
+[Complete The Pattern #3 (Horizontal Image of #2)](https://www.codewars.com/kata/557341907fbf439911000022/solutions/javascript/me/best_practice)
+
 
 
 
