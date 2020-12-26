@@ -1995,6 +1995,8 @@ function pattern(n){
 }
 ```
 
+[]
+
 
 
 
