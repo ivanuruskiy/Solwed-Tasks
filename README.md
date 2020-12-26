@@ -1996,7 +1996,9 @@ function pattern(n){
 ```
 
 [Complete The Pattern #4](https://www.codewars.com/kata/55736129f78b30311300010f/solutions/javascript/me/best_practice)
+```
 
+```
 
 
 
