@@ -1981,6 +1981,18 @@ function pattern(n){
  return output.join('\n');
 }
 // OR 2ND SOLUTION.
+
+function pattern(n){
+  let s = '';
+  let x = n;
+  let str = ''
+  for(let i = 1; i <= n; i++){ 
+    s += x;
+    x--;
+    str += s + '\n';
+  }
+  return str.slice(0, -1);
+}
 ```
 
 
