@@ -2007,6 +2007,7 @@ function pattern(n){
    }
  return output.slice(0, -1);
 }
+//
 ```
 
 
