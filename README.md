@@ -2007,7 +2007,7 @@ function pattern(n){
    }
  return output.slice(0, -1);
 }
-// OR 2ND
+// OR 2ND SOLUTION.
 ```
 
 
