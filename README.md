@@ -2011,7 +2011,7 @@ function pattern(n){
 
 ```
 
-[]
+[]()
 
 
 
