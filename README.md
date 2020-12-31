@@ -2009,7 +2009,16 @@ function pattern(n){
 }
 // OR 2ND SOLUTION.
 
-
+let pattern = n => {
+  let result = [];
+  for (let i = 0; i < n; i++) result.push(generateString(n,i));
+  return result.join('\n');
+}
+let generateString = (index, sliceBy) => {
+  let list = [];
+  for (let i = 1; i <= index; i++) list.push(i);
+  return list.slice(sliceBy).join('');
+}
 ```
 
 []()
