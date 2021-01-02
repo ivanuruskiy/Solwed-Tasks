@@ -2031,6 +2031,15 @@ function generateIntegers(m, n) {
   return arr;
 }
 // OR 2ND SOLUTION.
+
+function generateIntegers(m, n) {
+  let out = [];
+  while(m <= n){
+   out.push(m);
+    m += 1;
+  }
+  return out;
+}
 ```
 
 
