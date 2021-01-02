@@ -2030,7 +2030,7 @@ function generateIntegers(m, n) {
   }
   return arr;
 }
-// OR 2ND SOL
+// OR 2ND SOLUTION.
 ```
 
 
