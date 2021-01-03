@@ -2042,7 +2042,7 @@ function generateIntegers(m, n) {
 }
 ```
 
-[Training JS #4: Basic data types--Array]
+[Training JS #4: Basic data types--Array]()
 
 
 
