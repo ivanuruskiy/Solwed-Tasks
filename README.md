@@ -2066,7 +2066,7 @@ function popElement(arr){
   
   return arr;
 }
-// OR 2ND
+// OR 2ND SOL
 ```
 
 
