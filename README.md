@@ -2083,6 +2083,8 @@ const pushElement = arr => [...arr, 1];
 const popElement = arr => arr.slice(0, -1);
 ```
 
+[]
+
 
 
 
