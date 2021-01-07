@@ -2091,7 +2091,7 @@ const arrCheck = arr =>{
   }
   return true;
 }
-// OR 2ND 
+// OR 2ND SOLUTION.
 ```
 
 
