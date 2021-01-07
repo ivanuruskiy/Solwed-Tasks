@@ -2091,6 +2091,7 @@ const arrCheck = arr =>{
   }
   return true;
 }
+//
 ```
 
 
