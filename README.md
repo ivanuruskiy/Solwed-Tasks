@@ -2083,7 +2083,8 @@ const pushElement = arr => [...arr, 1];
 const popElement = arr => arr.slice(0, -1);
 ```
 
-[Is every value in the array an array?]()
+[Is every value in the array an array?](https://www.codewars.com/kata/582c81d982a0a65424000201/solutions/javascript/me/best_practice)
+
 
 
 
