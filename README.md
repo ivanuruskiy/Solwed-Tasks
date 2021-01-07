@@ -2092,6 +2092,8 @@ const arrCheck = arr =>{
   return true;
 }
 // OR 2ND SOLUTION.
+
+const arrCheck = a => a.every(Array.isArray) ;
 ```
 
 
