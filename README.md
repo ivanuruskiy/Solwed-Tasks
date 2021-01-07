@@ -2085,7 +2085,12 @@ const popElement = arr => arr.slice(0, -1);
 
 [Is every value in the array an array?](https://www.codewars.com/kata/582c81d982a0a65424000201/solutions/javascript/me/best_practice)
 ```
-
+const arrCheck = arr =>{
+  for( let el of arr){
+    if (!Array.isArray(el)) return false;
+  }
+  return true;
+}
 ```
 
 
