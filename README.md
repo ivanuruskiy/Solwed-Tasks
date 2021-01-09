@@ -2109,7 +2109,17 @@ const arrCheck = value => {
 
 [Clean up after your dog](https://www.codewars.com/kata/57faa6ff9610ce181b000028/solutions/javascript/me/best_practice)
 ```
-
+function crap(x, bags, cap){
+  let total = bags * cap,
+      sumOfCrap = 0;
+  for (let arr of x) {
+    for (let el of arr) {
+      if (el === 'D') return 'Dog!!';
+      if (el === '@') sumOfCrap++;
+    }
+  }
+  return total >= sumOfCrap? 'Clean' : 'Cr@p';
+}
 ```
 
 
