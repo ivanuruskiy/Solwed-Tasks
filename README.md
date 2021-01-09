@@ -2108,7 +2108,9 @@ const arrCheck = value => {
 ```
 
 [Clean up after your dog](https://www.codewars.com/kata/57faa6ff9610ce181b000028/solutions/javascript/me/best_practice)
+```
 
+```
 
 
 
