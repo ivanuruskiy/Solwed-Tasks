@@ -2095,7 +2095,7 @@ const arrCheck = arr =>{
 
 const arrCheck = a => a.every(Array.isArray) ;
 
-// AND/ALSO 3RD 
+// AND/ALSO 3RD SOL
 ```
 
 
