@@ -2096,6 +2096,15 @@ const arrCheck = arr =>{
 const arrCheck = a => a.every(Array.isArray) ;
 
 // AND/ALSO 3RD SOLUTION.
+
+const arrCheck = value => {
+  value = value.map(el => Array.isArray(el));
+  let r = true;
+  for(el of value){
+    if(el === false) r = false;
+  }
+  return r;
+}
 ```
 
 
