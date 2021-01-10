@@ -2132,6 +2132,8 @@ function crap(x, bags, cap){
   }
   return c <= bags * cap? "Clean" : "Cr@p"
 }
+
+//
 ```
 
 
