@@ -2120,7 +2120,7 @@ function crap(x, bags, cap){
   }
   return total >= sumOfCrap? 'Clean' : 'Cr@p';
 }
-// OR 
+// OR 2ND SOL
 ```
 
 
