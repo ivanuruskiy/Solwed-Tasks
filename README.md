@@ -2121,6 +2121,17 @@ function crap(x, bags, cap){
   return total >= sumOfCrap? 'Clean' : 'Cr@p';
 }
 // OR 2ND SOLUTION.
+
+function crap(x, bags, cap){
+  let c = 0;
+  for (let el of x){
+    for (let elem of el){
+      if (elem === "@") c++;
+      if (elem === "D") return "Dog!!";
+    }
+  }
+  return c <= bags * cap? "Clean" : "Cr@p"
+}
 ```
 
 
