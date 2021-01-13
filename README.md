@@ -2135,7 +2135,19 @@ function crap(x, bags, cap){
 
 // OR/AND 3RD SOLUTION.
 
-
+function crap(x, bags, cap){
+  let dog = 0;
+  let crap = 0;
+for(let el of x){
+  for(let i of el){
+    if(i === 'D') dog++;
+    if(i=== '@') crap++;
+  }
+}
+  if(dog > 0) {return "Dog!!"}
+  else if(bags * cap >= crap){return "Clean"}
+  else return "Cr@p"
+}
 ```
 
 
