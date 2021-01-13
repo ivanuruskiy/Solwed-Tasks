@@ -2133,7 +2133,9 @@ function crap(x, bags, cap){
   return c <= bags * cap? "Clean" : "Cr@p"
 }
 
-// OR 2ND SOLUTION.
+// OR/AND 3RD SOLUTION.
+
+
 ```
 
 
