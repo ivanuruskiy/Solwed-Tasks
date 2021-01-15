@@ -2152,7 +2152,14 @@ for(let el of x){
 
 [Total amount of points](https://www.codewars.com/kata/5bb904724c47249b10000131/solutions/javascript/me/best_practice)
 ```
-
+function points(games) {
+  let total = 0;
+  for (let el of games) {
+    if (el[0] > el[2]) total += 3;
+    else if (el[0] === el[2]) total += 1;
+  }
+  return total;
+}
 ```
 
 
