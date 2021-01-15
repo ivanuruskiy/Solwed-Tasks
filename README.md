@@ -2151,7 +2151,9 @@ for(let el of x){
 ```
 
 [Total amount of points](https://www.codewars.com/kata/5bb904724c47249b10000131/solutions/javascript/me/best_practice)
+```
 
+```
 
 
 
