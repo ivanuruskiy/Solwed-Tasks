@@ -2150,7 +2150,7 @@ for(let el of x){
 }
 ```
 
-[]
+[Total amount of points]
 
 
 
