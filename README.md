@@ -2160,7 +2160,7 @@ function points(games) {
   }
   return total;
 }
-// OR 2ND SOL
+// OR 2ND SOLUTION.
 ```
 
 
