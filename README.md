@@ -2174,7 +2174,7 @@ const points = (games) =>
   ), 0)
 ```
 
-[]
+[Plus - minus - plus - plus - ... - Count]
 
 
 
