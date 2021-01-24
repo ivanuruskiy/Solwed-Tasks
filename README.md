@@ -2165,6 +2165,13 @@ function points(games) {
 const points = games => games.reduce((sum, [x, , y]) => sum + (x > y ? 3 : x == y), 0)
 
 // AND/ALSO 3RD SOLUTION.
+
+const points = (games) => 
+  games.reduce((acc, game) => (
+    game[0] < game[2] ? acc :
+    game[0] > game[2] ? acc = acc + 3 :
+    acc = acc + 1
+  ), 0)
 ```
 
 []
