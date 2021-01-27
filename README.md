@@ -2175,8 +2175,9 @@ const points = (games) =>
 ```
 
 [Plus - minus - plus - plus - ... - Count](https://www.codewars.com/kata/5bbb8887484fcd36fb0020ca/solutions/javascript/me/best_practice)
+```javascript
 
-
+```
 
 
 
