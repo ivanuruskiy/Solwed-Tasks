@@ -2183,7 +2183,7 @@ const catchSignChange = arr => {
   }
   return count
 }
-// OR 2ND SOL
+// OR 2ND SOLUTION.
 
 ```
 
