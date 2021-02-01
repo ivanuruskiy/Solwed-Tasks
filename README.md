@@ -2190,6 +2190,14 @@ function catchSignChange(arr) {
 }
 // AND/ALSO 3RD SOLUTION.
 
+const catchSignChange = arr => {
+    let s = 0;
+    for (let i=0;i<=arr.length-1;i++){
+        if (arr[i]>=0 && arr[i+1]<0 ||arr[i]<0 && arr[i+1]>=0) s++
+    }
+    return s
+}
+
 ```
 
 
