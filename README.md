@@ -2199,7 +2199,7 @@ const catchSignChange = arr => {
 }
 ```
 
-[]
+[Working with arrays I (and why your code fails in some katas)]
 
 
 
