@@ -2201,7 +2201,11 @@ const catchSignChange = arr => {
 
 [Working with arrays I (and why your code fails in some katas)](https://www.codewars.com/kata/5a4ff3c5fd56cbaf9800003e/solutions/javascript/me/best_practice)
 ```javascript
-
+function withoutLast(arr) {
+//   let arr = arr.slice();// Fix it
+//   arr.pop(); // removes the last element
+  return arr.slice(0, -1);
+}
 ```
 
 
