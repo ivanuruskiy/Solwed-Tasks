@@ -2206,7 +2206,7 @@ function withoutLast(arr) {
 //   arr.pop(); // removes the last element
   return arr.slice(0, -1);
 }
-// OR 2ND
+// OR 2ND SOLUTION.
 ```
 
 
