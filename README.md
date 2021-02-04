@@ -2207,6 +2207,13 @@ function withoutLast(arr) {
   return arr.slice(0, -1);
 }
 // OR 2ND SOLUTION.
+
+function withoutLast(arr) {
+    // Fix it
+    let arr1 = arr.slice();
+    arr1.pop(); // removes the last element
+    return arr1;
+}
 ```
 
 
