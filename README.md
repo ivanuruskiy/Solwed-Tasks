@@ -2214,6 +2214,7 @@ function withoutLast(arr) {
     arr1.pop(); // removes the last element
     return arr1;
 }
+//
 ```
 
 
