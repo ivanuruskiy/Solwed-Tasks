@@ -2216,7 +2216,7 @@ function withoutLast(arr) {
 }
 // OR/AND 3RD SOLUTION.
 
-
+const withoutLast = arr => arr.slice(0, -1)
 ```
 
 
