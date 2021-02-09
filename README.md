@@ -2219,7 +2219,8 @@ function withoutLast(arr) {
 const withoutLast = arr => arr.slice(0, -1)
 ```
 
-[Character Counter]()
+[Character Counter](https://www.codewars.com/kata/56786a687e9a88d1cf00005d/solutions/javascript/me/best_practice)
+
 
 
 
