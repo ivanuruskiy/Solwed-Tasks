@@ -2252,12 +2252,7 @@ function count (str, char){
   return s;
 }
 
-function validateWord(s)
-{
-  s = s.toLowerCase();
-  s = s.split('').map(el => count(s, el));
-  return s.every(el => el === s[0]);
-}
+
 ```
 
 
