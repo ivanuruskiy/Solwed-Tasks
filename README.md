@@ -2237,7 +2237,8 @@ function validateWord(s)
   s = s.split('').map(el => count(s, el));
   return s.every(el => el === s[0]);
 }
-// 2ND SOL.
+// 2ND SOLUTION.
+
 ```
 
 [
