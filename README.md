@@ -2241,7 +2241,7 @@ function validateWord(s)
 
 ```
 
-[]
+[]()
 
 
 
