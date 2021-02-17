@@ -2245,6 +2245,16 @@ function validateWord(s, c = s.toLowerCase())
 }
 
 // ALSO/AND 3RD S
+
+function validateWord(s) {
+    return s
+        .toLowerCase()
+        .split('')
+        .sort()
+        .join('')
+        .match(/(.)\1*/g)
+        .every((s, i, a) => s.length === a[0].length);
+}
 ```
 
 []()
