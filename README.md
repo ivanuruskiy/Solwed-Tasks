@@ -2239,6 +2239,10 @@ function validateWord(s)
 }
 // 2ND SOLUTION.
 
+function validateWord(s, c = s.toLowerCase())
+{
+    return c.length % new Set(c).size == 0
+}
 ```
 
 []()
