@@ -2243,6 +2243,8 @@ function validateWord(s, c = s.toLowerCase())
 {
     return c.length % new Set(c).size == 0
 }
+
+// ALSO/AND
 ```
 
 []()
