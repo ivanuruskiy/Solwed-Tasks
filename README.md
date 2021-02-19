@@ -2244,7 +2244,7 @@ function validateWord(s, c = s.toLowerCase())
     return c.length % new Set(c).size == 0
 }
 
-// ALSO/AND 3RD SOLUTION.
+// AND/ALSO 3RD SOLUTION.
 
 function validateWord(s) {
     return s
