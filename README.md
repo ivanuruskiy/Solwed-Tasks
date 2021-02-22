@@ -2259,7 +2259,10 @@ function validateWord(s) {
 
 [Make a function that does arithmetic!](https://www.codewars.com/kata/583f158ea20cfcbeb400000a/solutions/javascript/me/best_practice)
 ```javascript
-//
+function arithmetic(a, b, operator){
+    let obj = {add: (a+b), subtract: (a-b), multiply: (a*b), divide: (a/b)}
+    return obj[operator];
+}
 ```
 
 
