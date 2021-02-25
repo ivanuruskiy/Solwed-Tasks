@@ -2271,6 +2271,8 @@ const arithmetic = (a, b, operator) => ({
     'multiply': a * b,
     'divide'  : a / b
 }[operator]);
+
+// INTERESTING SWITCH SOLUTION.
 ```
 
 []
