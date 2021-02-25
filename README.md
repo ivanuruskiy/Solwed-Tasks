@@ -2264,6 +2264,13 @@ function arithmetic(a, b, operator){
     return obj[operator];
 }
 // OR 2ND SOLUTION.
+
+const arithmetic = (a, b, operator) => ({
+    'add'     : a + b,
+    'subtract': a - b,
+    'multiply': a * b,
+    'divide'  : a / b
+}[operator]);
 ```
 
 
