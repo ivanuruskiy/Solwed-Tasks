@@ -2289,9 +2289,10 @@ function arithmetic(a, b, operator){
 ```
 
 [Start with a Vowel](https://www.codewars.com/kata/5a02e9c19f8e2dbd50000167/solutions/javascript/me/best_practice)
+```javascript
 
-[
-]
+```
+
 
 
 
