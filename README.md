@@ -2290,7 +2290,11 @@ function arithmetic(a, b, operator){
 
 [Start with a Vowel](https://www.codewars.com/kata/5a02e9c19f8e2dbd50000167/solutions/javascript/me/best_practice)
 ```javascript
-
+function vowelStart(str){
+  str = str.toLowerCase();
+  return str.split(' ').join('').replace(/a/g, ' a').replace(/i/g, ' i').replace(/o/g, ' o')
+  .replace(/e/g, ' e').replace(/u/g, ' u').replace(/[!,_-]/g, '').trim();
+}
 ```
 
 
