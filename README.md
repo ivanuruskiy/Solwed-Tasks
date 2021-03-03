@@ -2295,6 +2295,7 @@ function vowelStart(str){
   return str.split(' ').join('').replace(/a/g, ' a').replace(/i/g, ' i').replace(/o/g, ' o')
   .replace(/e/g, ' e').replace(/u/g, ' u').replace(/[!,_-]/g, '').trim();
 }
+//
 ```
 
 
