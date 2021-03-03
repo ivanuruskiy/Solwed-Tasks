@@ -2307,6 +2307,8 @@ function vowelStart(str){
     }
     return result;
 }
+
+// AND/ALSO 3RD SOLUTION.
 ```
 
 
