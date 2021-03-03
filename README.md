@@ -2296,6 +2296,17 @@ function vowelStart(str){
   .replace(/e/g, ' e').replace(/u/g, ' u').replace(/[!,_-]/g, '').trim();
 }
 // OR 2ND SOLUTION.
+
+function vowelStart(str){
+    str = str.toLowerCase().replace(/[^a-z0-9]/g,"");
+    let result = "";
+    for(let i = 0; i<str.length; i++){
+        if(str[i].match(/[a|e|i|o|u]/g) && i > 0)
+            result+=" "+str[i];
+        else result+=str[i];
+    }
+    return result;
+}
 ```
 
 
