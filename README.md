@@ -2309,6 +2309,12 @@ function vowelStart(str){
 }
 
 // AND/ALSO 3RD SOLUTION.
+
+function vowelStart(str){
+    str = str.replace(/\W/g, '' );
+    str = str.replace(/[_]/g, '').toLowerCase();
+    return str.slice(0, 1) + str.slice(1).replace(/[aeoiu]/g, match => ' ' + match);
+}
 ```
 
 
