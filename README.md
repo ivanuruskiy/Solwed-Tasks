@@ -2317,7 +2317,8 @@ function vowelStart(str){
 }
 ```
 
-[Count letters in a string]
+[Count letters in a string](https://www.codewars.com/kata/58e6868cfd2d89e9370001ad/solutions/javascript/me/best_practice)
+
 
 
 
