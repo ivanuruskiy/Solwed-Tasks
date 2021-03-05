@@ -2317,6 +2317,8 @@ function vowelStart(str){
 }
 ```
 
+[Count letters in a string]
+
 
 
 
