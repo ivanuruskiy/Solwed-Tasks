@@ -2332,6 +2332,7 @@ function countLetters (str) {
   }
   return obj;
 }
+// OR 2ND SOLUTION.
 ```
 
 
