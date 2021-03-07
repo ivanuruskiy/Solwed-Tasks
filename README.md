@@ -2333,6 +2333,15 @@ function countLetters (str) {
   return obj;
 }
 // OR 2ND SOLUTION.
+
+function countLetters (s) {
+    if (typeof s != 'string') return null
+    d = {}
+    for (e of s.replace(/[^a-z]/gi,'').toLowerCase()){
+        d[e] = d[e] ? d[e]+=1 : 1
+    }
+    return d
+}
 ```
 
 
