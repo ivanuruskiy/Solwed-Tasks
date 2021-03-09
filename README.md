@@ -2344,7 +2344,7 @@ function countLetters (s) {
 }
 ```
 
-[Nth Root of a Number]
+[Nth Root of a Number]()
 
 
 
