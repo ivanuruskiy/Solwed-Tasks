@@ -2349,6 +2349,7 @@ function countLetters (s) {
 function root(x, n) {
   return Math.pow(x, 1/n);
 }
+// OR 2ND SOLUTION.
 ```
 
 
