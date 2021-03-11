@@ -2354,6 +2354,7 @@ function root(x, n) {
 function root(x, n) {
     return x ** (1/n)
 }
+// AND 3RD SOL
 ```
 
 
