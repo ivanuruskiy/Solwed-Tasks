@@ -2355,6 +2355,8 @@ function root(x, n) {
     return x ** (1/n)
 }
 // AND 3RD SOLUTION.
+
+let root = (b, n) => b ** (1/n)
 ```
 
 
