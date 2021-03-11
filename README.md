@@ -2359,6 +2359,8 @@ function root(x, n) {
 let root = (b, n) => b ** (1/n)
 ```
 
+[Area of a Square]
+
 
 
 
