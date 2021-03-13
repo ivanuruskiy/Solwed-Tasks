@@ -2360,7 +2360,9 @@ let root = (b, n) => b ** (1/n)
 ```
 
 [Area of a Square](https://www.codewars.com/kata/5748838ce2fab90b86001b1a/solutions/javascript/me/best_practice)
+```javascript
 
+```
 
 
 
