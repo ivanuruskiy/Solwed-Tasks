@@ -2366,7 +2366,7 @@ function squareArea(A){
   let r = l / (2 *  Math.PI)
   return +(r * r).toFixed(2)
 }
-// OR 2ND
+// OR 2ND SOLUTION.
 ```
 
 
