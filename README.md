@@ -2374,7 +2374,7 @@ function squareArea(A){
     var area = Math.pow(radius, 2);
     return Math.round(area*100)/100
 }
-// AND 3RD SOL.
+// AND 3RD SOLUTION.
 ```
 
 
