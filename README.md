@@ -2381,7 +2381,9 @@ squareArea = A => +Math.pow((2 * A / 3.1416), 2).toFixed(2);
 ```
 
 [Lario and Muigi Pipe Problem](https://www.codewars.com/kata/56b29582461215098d00000f/solutions/javascript/me/best_practice)
+```javascript
 
+```
 
 
 
