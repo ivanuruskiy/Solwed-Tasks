@@ -2392,7 +2392,9 @@ function pipeFix(numbers){
 // OR 2ND SOLUTION. 
 
 const pipeFix = arr => Array(arr.pop() - arr[0] + 1).fill(0).map((e,i) => i + arr[0])
+// AND 3RD SOL. 
 ```
+
 
 
 
