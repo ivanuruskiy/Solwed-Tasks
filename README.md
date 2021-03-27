@@ -2394,6 +2394,13 @@ function pipeFix(numbers){
 const pipeFix = arr => Array(arr.pop() - arr[0] + 1).fill(0).map((e,i) => i + arr[0])
 
 // AND 3RD SOLUTION.
+
+function pipeFix(num, arr = [] ){
+    for ( let i = num[0]; i <= num.slice(-1)[0]; i++){
+        arr.push(i)
+    }
+    return arr
+}
 ```
 
 
