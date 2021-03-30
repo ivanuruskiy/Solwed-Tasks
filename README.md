@@ -2403,7 +2403,7 @@ function pipeFix(num, arr = [] ){
 }
 ```
 
-[]
+[Training JS #2: Basic data types--Number]
 
 
 
