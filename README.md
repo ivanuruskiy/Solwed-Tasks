@@ -2404,7 +2404,9 @@ function pipeFix(num, arr = [] ){
 ```
 
 [Training JS #2: Basic data types--Number](https://www.codewars.com/kata/571edd157e8954bab500032d/solutions/javascript/me/best_practice)
+```javascript
 
+```
 
 
 
