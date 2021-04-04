@@ -2443,6 +2443,8 @@ const equal4 = (a = v4, b = v5) => a / b
 const equal5 = (a = v6, b = v3) => a % b
 ```
 
+[]
+
 
 
 
