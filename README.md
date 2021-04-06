@@ -2441,6 +2441,16 @@ const equal2 = (a = v6, b = v3) => a - b
 const equal3 = (a = v1, b = v5) => a * b
 const equal4 = (a = v4, b = v5) => a / b
 const equal5 = (a = v6, b = v3) => a % b
+
+// ALSO 3RD SOLUTION.
+
+var v1=50;v2=100,v3=150,v4=200,v5=2,v6=250
+
+equal1=()=>v1+v1
+equal2=()=>v3-v1
+equal3=()=>v1*v5
+equal4=()=>v4/v5
+equal5=()=>v2%v6
 ```
 
 []
