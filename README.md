@@ -2453,7 +2453,8 @@ equal4=()=>v4/v5
 equal5=()=>v2%v6
 ```
 
-[Sum of Multiples]()
+[Sum of Multiples](https://www.codewars.com/kata/57241e0f440cd279b5000829/solutions/javascript/me/best_practice)
+
 
 
 
