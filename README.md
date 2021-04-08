@@ -2453,7 +2453,7 @@ equal4=()=>v4/v5
 equal5=()=>v2%v6
 ```
 
-[Sum of Multiples]
+[Sum of Multiples]()
 
 
 
