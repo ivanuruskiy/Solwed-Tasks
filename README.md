@@ -2467,7 +2467,7 @@ function sumMul(n,m){
 };
 
 // You need to submit this kata about three times to go through!!!
-//
+// OR 2ND SOLUTION.
 ```
 
 
