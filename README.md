@@ -2455,7 +2455,18 @@ equal5=()=>v2%v6
 
 [Sum of Multiples](https://www.codewars.com/kata/57241e0f440cd279b5000829/solutions/javascript/me/best_practice)
 ```javascript
+function sumMul(n,m){
+ if(n >= m){
+   return 'INVALID';
+ } 
+  let sum = 0;
+   for(let i = n; i < m; i += n){
+     sum += i;
+   }
+  return sum;
+};
 
+// You need to submit this kata about three times to go through!!!
 ```
 
 
