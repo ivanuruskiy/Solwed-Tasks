@@ -2493,7 +2493,7 @@ function drawStairs(n) {
     }
     return s;
 }
-// OR 2ND SOL.
+// OR 2ND SOLUTION.
 ```
 
 
