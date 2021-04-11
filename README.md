@@ -2481,7 +2481,7 @@ function sumMul(n,m){
 }
 ```
 
-[Draw stairs]
+[Draw stairs]()
 
 
 
