@@ -2471,7 +2471,7 @@ function sumMul(n,m){
 
 const sumMul = (n, m) => ~~(m/n) * (m+n - m%n) / 2 || 'INVALID';
 
-// ALSO 
+// ALSO 3RD SOLUTION.
 ```
 
 
