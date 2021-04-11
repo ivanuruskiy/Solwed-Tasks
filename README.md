@@ -2493,6 +2493,7 @@ function drawStairs(n) {
     }
     return s;
 }
+//
 ```
 
 
