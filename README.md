@@ -2496,7 +2496,10 @@ function drawStairs(n) {
 // OR 2ND SOLUTION.
 
 const drawStairs = n => [...Array(n)].map((_, i) => " ".repeat(i) + "I").join("\n");
+
+// AND 3RD SOLUTION.
 ```
+
 
 []
 
