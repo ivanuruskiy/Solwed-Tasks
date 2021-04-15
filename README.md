@@ -2504,7 +2504,7 @@ function drawStairs(n) {
 }
 ```
 
-[Reverser]
+[Reverser]()
 
 
 
