@@ -2499,7 +2499,9 @@ const drawStairs = n => [...Array(n)].map((_, i) => " ".repeat(i) + "I").join("\
 
 // AND/ALSO 3RD SOLUTION.
 
-
+function drawStairs(n) {
+    return Array(n).fill("I").map((e,i)=>e.padStart(i+1," ")).join("\n")
+}
 ```
 
 
