@@ -2504,7 +2504,8 @@ function drawStairs(n) {
 }
 ```
 
-[Reverser]()
+[Reverser](https://www.codewars.com/kata/58069e4cf3c13ef3a6000168/solutions/javascript/me/best_practice)
+
 
 
 
