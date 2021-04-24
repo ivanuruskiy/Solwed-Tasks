@@ -2516,7 +2516,8 @@ function reverse(n){
   return num;
 }
 // OR 2ND SOLUTION.
-// AND
+
+// AND/ALSO 3RD SOL.
 ```
 
 
