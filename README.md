@@ -2517,6 +2517,8 @@ function reverse(n){
 }
 // OR 2ND SOLUTION.
 
+let reverse = n => +[...[]+n].reverse().join([])
+
 // AND/ALSO 3RD SOL.
 ```
 
