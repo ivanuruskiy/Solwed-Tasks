@@ -2524,6 +2524,7 @@ let reverse = n => +[...[]+n].reverse().join([])
 //
 ```
 
+[]
 
 
 
