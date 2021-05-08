@@ -2522,7 +2522,9 @@ let reverse = n => +[...[]+n].reverse().join([])
 ```
 
 [Beginner Series #5 Triangular Numbers]()
+```javascript
 
+```
 
 
 
