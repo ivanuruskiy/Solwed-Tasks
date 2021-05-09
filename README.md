@@ -2521,7 +2521,7 @@ let reverse = n => +[...[]+n].reverse().join([])
 
 ```
 
-[Beginner Series #5 Triangular Numbers]()
+[Beginner Series #5 Triangular Numbers](https://www.codewars.com/kata/56d0a591c6c8b466ca00118b/solutions/javascript/me/best_practice)
 ```javascript
 
 ```
