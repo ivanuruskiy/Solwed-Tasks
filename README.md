@@ -2523,7 +2523,15 @@ let reverse = n => +[...[]+n].reverse().join([])
 
 [Beginner Series #5 Triangular Numbers](https://www.codewars.com/kata/56d0a591c6c8b466ca00118b/solutions/javascript/me/best_practice)
 ```javascript
-
+function isTriangular(t) {
+ let num = 0;
+  let step = 1;
+  while(num < t){
+    num = num + step;
+    step++;
+  }
+  return num === t;
+}
 ```
 
 
