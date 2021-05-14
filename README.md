@@ -2532,6 +2532,8 @@ function isTriangular(t) {
   }
   return num === t;
 }
+
+// OR 2ND SOL.
 ```
 
 
