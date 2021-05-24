@@ -2538,7 +2538,12 @@ function isTriangular(t) {
 function isTriangular(t) {
     return Math.sqrt(8*t + 1) % 1 == 0;
 }
-// AND/ALSO 3RD SOLUTION. 
+// AND/ALSO 3RD SOLUTION.
+
+function isTriangular(t) {
+    const trN = x => x * (x + 1) / 2
+    return Array.from({length: 32769}, (_,i)=> trN(i+1)).includes(t)
+}
 
 // // // // // // //
 ```
