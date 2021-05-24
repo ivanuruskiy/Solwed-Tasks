@@ -2535,6 +2535,10 @@ function isTriangular(t) {
 
 // OR 2ND SOLUTION.
 
+function isTriangular(t) {
+    return Math.sqrt(8*t + 1) % 1 == 0;
+}
+
 // // // // // // //
 ```
 
