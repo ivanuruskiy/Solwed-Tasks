@@ -2545,7 +2545,7 @@ function isTriangular(t) {
     return Array.from({length: 32769}, (_,i)=> trN(i+1)).includes(t)
 }
 
-// // // // // // //
+// // // 
 ```
 
 
