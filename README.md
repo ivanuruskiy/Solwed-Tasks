@@ -2547,7 +2547,7 @@ function isTriangular(t) {
 
 ```
 
-[]
+[Number toString]
 
 
 
