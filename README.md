@@ -2549,7 +2549,7 @@ function isTriangular(t) {
 
 [Number toString](https://www.codewars.com/kata/53934feec44762736c00044b/solutions/javascript/me/best_practice)
 ```javascript
-
+const a = (123).toString()
 ```
 
 
