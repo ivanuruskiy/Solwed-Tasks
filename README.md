@@ -2552,6 +2552,8 @@ function isTriangular(t) {
 const a = (123).toString()
 
 // OR 2ND SOLUTION.
+
+// 3RD SOL.
 ```
 
 
