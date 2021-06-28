@@ -2553,6 +2553,9 @@ const a = (123).toString()
 
 // OR 2ND SOLUTION.
 
+var a = 123;
+a = a.toString();
+
 // //  // // //  // // // // //  // // // // // 3RD SOL.
 ```
 
