@@ -2565,7 +2565,11 @@ var a = 123 + ''
 [Chuck Norris VII - True or False? (Beginner)](https://www.codewars.com/kata/570669d8cb7293a2d1001473/solutions/javascript/me/best_practice)
 ```javascript
 const ifChuckSaysSo = () => 'clear' === 'clean';
+
+// OR 2ND SOL.
+
 ```
+
 
 
 
