@@ -2568,6 +2568,10 @@ const ifChuckSaysSo = () => 'clear' === 'clean';
 
 // OR 2ND SOLUTION.
 
+function ifChuckSaysSo(){
+    return !!0;
+}
+
 ```
 
 
