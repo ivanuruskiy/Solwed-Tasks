@@ -2566,7 +2566,7 @@ var a = 123 + ''
 ```javascript
 const ifChuckSaysSo = () => 'clear' === 'clean';
 
-// // // // OR 2ND SOL.
+// OR 2ND SOL.
 
 ```
 
