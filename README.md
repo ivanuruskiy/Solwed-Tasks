@@ -2572,7 +2572,7 @@ function ifChuckSaysSo(){
     return !!0;
 }
 
-// OR 2ND SOL.
+// OR 2ND SOLUTION.
 ```
 
 
