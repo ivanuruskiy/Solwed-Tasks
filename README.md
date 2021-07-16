@@ -2574,7 +2574,7 @@ function ifChuckSaysSo(){
 
 // OR 3RD SOLUTION.
 
-// // //
+function ifChuckSaysSo(){return !true;}
 ```
 
 
