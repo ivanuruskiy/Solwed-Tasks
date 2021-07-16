@@ -2570,12 +2570,14 @@ const ifChuckSaysSo = () => 'clear' === 'clean';
 
 function ifChuckSaysSo(){
     return !!0;
-}
+};
 
 // OR 3RD SOLUTION.
 
 function ifChuckSaysSo(){return !true;}
+
 ```
+
 
 
 
