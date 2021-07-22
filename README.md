@@ -2579,7 +2579,16 @@ function ifChuckSaysSo(){return !true;}
 ```
 [Difference Of Squares](https://www.codewars.com/kata/558f9f51e85b46e9fa000025/solutions/javascript/me/best_practice)
 ```javascript
-
+function differenceOfSquares(n){
+  let sOfTheSq = 0;
+  let sum = 0;
+   for(let i = 0; i <= n; i++){
+     sum += i;
+      sOfTheSq += i ** 2;
+   }
+    sum = sum ** 2;
+  return sum - sOfTheSq;
+};
 ```
 
 
