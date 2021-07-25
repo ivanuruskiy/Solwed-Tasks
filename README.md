@@ -2590,7 +2590,7 @@ function differenceOfSquares(n){
   return sum - sOfTheSq;
 };
 
-//
+// OR 2ND 
 ```
 
 
