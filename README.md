@@ -2589,6 +2589,8 @@ function differenceOfSquares(n){
     sum = sum ** 2;
   return sum - sOfTheSq;
 };
+
+//
 ```
 
 
