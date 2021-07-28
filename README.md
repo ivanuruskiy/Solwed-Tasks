@@ -2601,7 +2601,7 @@ function differenceOfSquares(x){
     return squareSum*squareSum - sum;
 }
 
-//
+// OR
 
 ```
 
