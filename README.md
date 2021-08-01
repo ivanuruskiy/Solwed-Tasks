@@ -2603,7 +2603,7 @@ function differenceOfSquares(x){
 
 // OR 3RD SOLUTION.
 
-// //
+differenceOfSquares=x=>x*(x*x-1)*(3*x+2)/12
 
 ```
 
