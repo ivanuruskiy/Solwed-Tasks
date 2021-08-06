@@ -2610,7 +2610,7 @@ differenceOfSquares=x=>x*(x*x-1)*(3*x+2)/12
 [Thinking & Testing : Something capitalized]()
 
 
-// OR 
+// OR 2ND SOL.
 
 
 
