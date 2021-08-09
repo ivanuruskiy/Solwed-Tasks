@@ -2607,7 +2607,10 @@ differenceOfSquares=x=>x*(x*x-1)*(3*x+2)/12
 
 ```
 
-[Thinking & Testing : Something capitalized]()
+[Thinking & Testing : Something capitalized](https://www.codewars.com/kata/56d93f249c844788bc000002/solutions/javascript/me/best_practice)
+```javascript
+
+```
 
 
 // OR 2ND SOLUTION.
