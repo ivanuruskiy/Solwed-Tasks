@@ -2609,7 +2609,20 @@ differenceOfSquares=x=>x*(x*x-1)*(3*x+2)/12
 
 [Thinking & Testing : Something capitalized](https://www.codewars.com/kata/56d93f249c844788bc000002/solutions/javascript/me/best_practice)
 ```javascript
+function testit(s){console.log(s);
+  if(s === '') return s + '';
+   let out = [];
+    let arr = s.split(' ');
+  let str;
+  console.log(arr);
+   for(let i = 0; i < arr.length; i++){
+     str = arr[i].slice(0, arr[i].length - 1) + arr[i][arr[i].length - 1].toUpperCase();
+     out.push(str);
+   }
+     return out.join(' ') + '';             
+};
 
+// OR 2ND SOLUTION.
 ```
 
 
