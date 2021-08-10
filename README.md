@@ -2624,11 +2624,13 @@ function testit(s){console.log(s);
 
 // OR 2ND SOLUTION.
 
+const testit = s => s.replace(/.\b/g, c => c.toUpperCase())
+
 // OR 3RD SOL.
 ```
 
 
-// OR 2ND SOLUTION.
+
 
 // AND 3RD SOLUTION.
 
