@@ -2626,7 +2626,7 @@ function testit(s){console.log(s);
 
 const testit = s => s.replace(/.\b/g, c => c.toUpperCase())
 
-// OR 3RD SOL.
+// OR 3RD SOLUTION.
 
 
 ```
