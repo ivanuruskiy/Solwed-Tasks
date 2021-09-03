@@ -2642,10 +2642,8 @@ function testit(s){
 
 ```
 
-[]()
 
-
-
+[The wheat/rice and chessboard problem]
 
 
 
