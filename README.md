@@ -2643,7 +2643,8 @@ function testit(s){
 ```
 
 
-[The wheat/rice and chessboard problem]
+[The wheat/rice and chessboard problem](https://www.codewars.com/kata/5b0d67c1cb35dfa10b0022c7/solutions/javascript/me/best_practice)
+
 
 
 
