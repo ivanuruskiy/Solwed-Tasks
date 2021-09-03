@@ -2628,6 +2628,17 @@ const testit = s => s.replace(/.\b/g, c => c.toUpperCase())
 
 // OR 3RD SOLUTION.
 
+function testit(s){
+    let str = '';
+    for (i = 0; i < s.length; i++) {
+        if (s[i + 1] === ' ' || i === s.length - 1) {
+            str += s[i].toUpperCase();
+        } else {
+            str += s[i]
+        }
+    }
+    return str;
+}
 
 ```
 
