@@ -2645,12 +2645,19 @@ function testit(s){
 
 [The wheat/rice and chessboard problem](https://www.codewars.com/kata/5b0d67c1cb35dfa10b0022c7/solutions/javascript/me/best_practice)
 ```javascript
-// //
 
+function squaresNeeded(grains){
+    let x = 1;
+    let square = 0;
+    let s = 0;
+    while (s < grains){
+        s = s + x;
+        x *= 2;
+        ++square;
+    }
+    return square;
+};
 
-// OR 2ND SOL.
-
-// OR 3RD SOL.
 
 
 
