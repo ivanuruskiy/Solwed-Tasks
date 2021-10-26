@@ -2658,6 +2658,8 @@ function squaresNeeded(grains){
     return square;
 };
 
+// OR SECOND SOLUTION.
+
 
 
 
