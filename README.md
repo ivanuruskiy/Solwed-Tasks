@@ -2661,11 +2661,20 @@ function squaresNeeded(grains){
 // OR SECOND SOLUTION.
 
 
+[Simple multiplication](https://www.codewars.com/kata/583710ccaa6717322c000105/solutions/javascript/me/best_practice)
+```
+function simpleMultiplication(num){
+if (num%2) {
+return num*9;
+  } else {
+return num*8;
+  }
+}`
+
 
 
 ```
 
-[]
 
 
 
