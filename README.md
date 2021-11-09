@@ -2671,7 +2671,7 @@ return num*8;
   }
 }`
 
-
+// OR 2ND SOLUTION
 
 ```
 
